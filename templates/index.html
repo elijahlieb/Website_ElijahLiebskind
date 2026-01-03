@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CV – Liebskind Elijah</title>
+
+<!-- Correct Flask static paths -->
+<link rel="stylesheet" href="{{ url_for('static', filename='Style.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<!-- Load your JS -->
+<script src="{{ url_for('static', filename='structure.js') }}" defer></script>
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="{{ url_for('static', filename='media/logo-cv.jpg') }}">
+
+<meta name="description" content="Personal website and CV of Elijah Liebskind, PSL student in Data Science, Art and Culture.">
+</head>
+
+<body>
+
+<!-- Intro motif section -->
+<section class="intro-section" id="introSection">
+  <div class="intro-content">
+    <img src="{{ url_for('static', filename='media/motif_site_AboutMe.png') }}"
+         alt="Decorative motif"
+         class="intro-motif">
+  </div>
+</section>
+
+<!-- Hamburger button -->
+<button class="hamburger" aria-label="Open menu" id="hamburgerBtn">
+  <div class="to-click">
+    <img src="{{ url_for('static', filename='media/Pawn-Hamburger.png') }}" width="200" alt="menu button">
+  </div>
+</button>
+
+<!-- Right panel -->
+<div class="right-panel" id="rightPanel" aria-hidden="true">
+  <button class="close-btn" id="closePanel">✕</button>
+  <h3>Project</h3>
+  <p>
+    Predictive model: estimating time spent to play a chess move.
+  </p>
+  <br>
+  <a class="project-thumb" href="{{ url_for('project_home') }}" target="_blank" rel="noopener">
+    <div class="to-click">
+      <img src="{{ url_for('static', filename='media/boardchess.jpeg') }}" alt="Chess project thumbnail">
+    </div>
+  </a>
+</div>
+
+
+<main class="page-main">
+
+  <section id="about" class="card fade-section">
+    <h2>About Me</h2>
+    <p>
+      My name is <strong>Elijah Liebskind</strong>, and I am currently a third-year student in the <em>CPES Data Science, Art, and Culture</em> program at <strong>PSL University</strong>.
+    </p>
+    <p>
+      My studies allow me to combine a strong technical background in statistics, programming, and machine learning, 
+      with a deep curiosity for the creative and cultural fields.  
+    </p>
+    <p>
+      I am particularly interested in how data can be used to enhance human creativity, 
+      and how computational models can help us understand artistic processes and decisions.
+    </p>
+  </section>
+
+  <section id="experiences" class="card fade-section">
+    <h2>Experiences</h2>
+    <p><strong>elijah.liebskind@gmail.com</strong></p>
+    <ul>
+      <li><u>Research Internship</u> – LATICE Laboratory (2 months)</li>
+      <p>
+        Worked on data visualization and data modeling tasks using Python and R.
+      </p>
+      <li><u>Graphic Design Training</u> – ISART Digital</li>
+      <p>
+        Developed a basic understanding of color theory, composition, and digital illustration tools.
+      </p>
+      <li><u>Art Workshop</u> – Drawing & Painting</li>
+      <p>
+        Practiced sketching and character design, improving my artistic sensibility and observation skills.
+      </p>
+      <li><u>Game Code Training</u> – ISART Digital</li>
+      <p>
+        Learned fundamental programming concepts through small creative coding projects and simple games.
+      </p>
+    </ul>
+  </section>
+
+  <section id="hobbies" class="card fade-section">
+    <h2>Hobbies</h2>
+    <ul>
+      <li><u>Theatre</u></li>
+      <p>
+        I am an actor in the PSL theatre company <em>Ridau</em>. Acting allows me to explore the emotional and expressive side of storytelling.
+      </p>
+      <li><u>Writing</u></li>
+      <p>
+        Writing short stories and screenplays is a way for me to structure imagination through narrative.
+      </p>
+      <li><u>Drawing</u></li>
+      <p>
+        I enjoy drawing caricatures and portraits, often mixing realism with humor.
+      </p>
+      <li><u>Chess</u></li>
+      <p>
+        Chess is both my hobby and mental gym: I play regularly online (ELO > 1800 on chess.com).
+      </p>
+    </ul>
+  </section>
+
+  <section id="collaborators" class="card fade-section">
+    <h2>Collaborators</h2>
+    <p>
+      I’ve had the opportunity to collaborate with fellow students and artists on projects 
+      involving data analysis, visual design, and creative programming.  
+    </p>
+    <p>
+      Collaboration is at the heart of my learning process — 
+      I believe innovation happens when different skills and perspectives meet.
+    </p>
+  </section>
+
+
+  <section class="final-section" id="finalImage">
+    <div class="final-content">
+      <img src="{{ url_for('static', filename='media/final-motif.png') }}" alt="Decorative motif" class="final-motif">
+    </div>
+  </section>
+
+</main>
+
+<!-- final motif  -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>© 2025 <strong>Elijah Liebskind</strong></p>
+    <p>Data Science • Art • Culture — PSL University</p>
+    <div class="footer-links">
+      <a href="mailto:elijah.liebskind@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="{{ url_for('project_home') }}" target="_blank" rel="noopener">Project</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

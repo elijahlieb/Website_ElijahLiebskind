@@ -1,0 +1,362 @@
+/* === VARIABLES === */
+:root {
+  --bg-beige: #f0e7d9;
+  --card-bg: rgba(255, 255, 255, 0.6);
+  --text: #2f2f2f;
+  --accent: #314e68;
+  --accent-light: rgba(49, 78, 104, 0.12);
+}
+
+/* === RESET === */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: 'Gill Sans', 'Helvetica', Arial, sans-serif;
+  background: var(--bg-beige);
+  color: var(--text);
+  scroll-behavior: smooth;
+  line-height: 1.6;
+}
+
+/* === INTRO IMAGE === */
+.intro-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-beige);
+  overflow: hidden;
+}
+.intro-motif {
+  display: block;
+  max-width: 95vw;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  opacity: 0.97;
+  animation: fadeInIntro 2s ease forwards;
+}
+@keyframes fadeInIntro {
+  from { opacity: 0; transform: scale(0.97); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* === MAIN CONTENT === */
+.page-main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 120px 20px 80px 20px;
+  text-align: center;
+}
+
+/* Cards (content sections) */
+.card {
+  background: var(--card-bg);
+  border-radius: 18px;
+  padding: 40px 30px;
+  margin: 48px 0;
+  /* Soft and slightly realistic shadow */
+  box-shadow: 
+    0 4px 10px rgba(0, 0, 0, 0.08),
+    0 6px 20px rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease, box-shadow 0.4s ease;
+}
+
+/* Animation effect when card appears in the viewport */
+.card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Subtle hover effect for more liveliness */
+.card:hover {
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.1),
+    0 12px 28px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+}
+
+/* Titles and text */
+.card h2 {
+  margin-bottom: 16px;
+  font-size: 1.6rem;
+  color: var(--accent);
+}
+
+.card p,
+.card li {
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+/* === HAMBURGER === */
+.hamburger {
+  position: fixed;
+  right: 20px;
+  top: 28%;
+  z-index: 50;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.45s ease;
+}
+.hamburger.visible {
+  opacity: 1;
+}
+
+/* === RIGHT PANEL === */
+.right-panel {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 320px;
+  background: rgba(255, 255, 255, 0.96);
+  transform: translateX(100%);
+  transition: transform 0.35s ease;
+  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.12);
+  padding: 24px;
+  z-index: 60;
+  text-align: center;
+  overflow-y: auto;
+}
+.right-panel.open {
+  transform: translateX(0);
+}
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: var(--accent);
+  float: right;
+}
+
+/* Text inside the right panel */
+.right-panel h3 {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  color: var(--accent);
+}
+.right-panel p {
+  margin: 12px 0;
+  line-height: 1.4;
+  font-size: 0.85rem;
+  padding: 0 6px;
+}
+
+.project-thumb {
+  display: block;
+  margin-top: 16px;
+}
+.project-thumb img {
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+img { transition: opacity .35s linear; }
+.to-click:hover img { opacity: 0.6; }
+
+/* === PROJECT NAVIGATION === */
+.project-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 16px 0;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  opacity: 0;
+  transition: opacity 0.45s ease;
+  z-index: 45;
+}
+.project-nav.visible {
+  opacity: 1;
+}
+.project-nav a {
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 8px 18px;
+  border-radius: 8px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.project-nav a:hover {
+  background: var(--accent);
+  color: white;
+}
+
+/* === FINAL IMAGE === */
+.final-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-beige);
+  overflow: hidden;
+}
+.final-motif {
+  max-width: 95vw;
+  max-height: 85vh;
+  object-fit: contain;
+  opacity: 0.97;
+}
+
+/* === FOOTER === */
+.site-footer {
+  background: var(--accent-light);
+  color: var(--accent);
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+}
+.footer-inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.footer-inner p {
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+.footer-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.footer-links a {
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: 600;
+  transition: opacity .3s ease;
+}
+.footer-links a:hover {
+  opacity: 0.6;
+}
+
+
+/* === D3 CHART STYLING === */
+#timeSpendChart {
+  width: 100%;
+  height: 400px;
+  margin-top: 30px;
+}
+
+.bar {
+  fill: var(--accent);
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+}
+.bar:hover {
+  opacity: 1;
+}
+
+.axis text {
+  font-size: 0.8rem;
+  fill: var(--text);
+}
+.axis path,
+.axis line {
+  stroke: rgba(0, 0, 0, 0.2);
+}
+
+/* ===== Intro Section Title Styling ===== */
+.intro-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+}
+
+.intro-content {
+  position: relative;
+  z-index: 2;
+}
+
+.intro-title {
+  font-family: 'Playfair Display', serif; /* Elegant and contrasting font */
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+#chess-visualization {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.player {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--accent);
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 30px;
+  align-items: center;
+}
+
+.metric {
+  background: var(--card-bg);
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+#board {
+  width: 320px;
+}
+
+/* === CHESS BOARD IMAGE === */
+#boardImage {
+  width: 320px;        /* taille raisonnable */
+  max-width: 90vw;     /* responsive mobile */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 
+    0 6px 18px rgba(0, 0, 0, 0.15);
+  background: white;
+}
+
+.player {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+.white-player {
+  color: #2f4f4f;
+}
+
+.black-player {
+  color: #1c1c1c;
+}

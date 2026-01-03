@@ -1,0 +1,353 @@
+ID_game,ID_move,PlayerName,PlayerSide,FEN,TimeSpend,TimeSpendPred
+2291,1,"Carlsen, Magnus",1,rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1,1.0,2.894973064319826
+2291,2,"Dowgird, Filip",0,rnbqkbnr/pppppppp/8/8/8/1P6/P1PPPPPP/RNBQKBNR b KQkq - 0 1,3.0,
+2291,3,"Carlsen, Magnus",1,rnbqkbnr/ppp1pppp/8/3p4/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 0 2,2.0,0.993453174603175
+2291,4,"Dowgird, Filip",0,rnbqkbnr/ppp1pppp/8/3p4/8/1P6/PBPPPPPP/RN1QKBNR b KQkq - 1 2,1.0,
+2291,5,"Carlsen, Magnus",1,rnbqkb1r/ppp1pppp/5n2/3p4/8/1P6/PBPPPPPP/RN1QKBNR w KQkq - 2 3,2.0,1.262473809523809
+2291,6,"Dowgird, Filip",0,rnbqkb1r/ppp1pppp/5n2/3p4/8/1P3N2/PBPPPPPP/RN1QKB1R b KQkq - 3 3,1.0,
+2291,7,"Carlsen, Magnus",1,rn1qkb1r/ppp1pppp/5n2/3p1b2/8/1P3N2/PBPPPPPP/RN1QKB1R w KQkq - 4 4,1.0,1.0729818181818185
+2291,8,"Dowgird, Filip",0,rn1qkb1r/ppp1pppp/5n2/3p1b2/7N/1P6/PBPPPPPP/RN1QKB1R b KQkq - 5 4,3.0,
+2291,9,"Carlsen, Magnus",1,rn1qkb1r/ppp1pppp/5nb1/3p4/7N/1P6/PBPPPPPP/RN1QKB1R w KQkq - 6 5,6.0,4.618
+2291,10,"Dowgird, Filip",0,rn1qkb1r/ppp1pppp/5nb1/3p4/7N/1P4P1/PBPPPP1P/RN1QKB1R b KQkq - 0 5,2.0,
+2291,11,"Carlsen, Magnus",1,rn1qkb1r/ppp2ppp/4pnb1/3p4/7N/1P4P1/PBPPPP1P/RN1QKB1R w KQkq - 0 6,1.0,1.6436
+2291,12,"Dowgird, Filip",0,rn1qkb1r/ppp2ppp/4pnb1/3p4/7N/1P4P1/PBPPPPBP/RN1QK2R b KQkq - 1 6,1.0,
+2291,13,"Carlsen, Magnus",1,rn1qkb1r/pp3ppp/2p1pnb1/3p4/7N/1P4P1/PBPPPPBP/RN1QK2R w KQkq - 0 7,4.0,3.336
+2291,14,"Dowgird, Filip",0,rn1qkb1r/pp3ppp/2p1pnb1/3p4/7N/1P1P2P1/PBP1PPBP/RN1QK2R b KQkq - 0 7,1.0,
+2291,15,"Carlsen, Magnus",1,r2qkb1r/pp1n1ppp/2p1pnb1/3p4/7N/1P1P2P1/PBP1PPBP/RN1QK2R w KQkq - 1 8,1.0,2.5
+2291,16,"Dowgird, Filip",0,r2qkb1r/pp1n1ppp/2p1pnb1/3p4/7N/1P1P2P1/PBPNPPBP/R2QK2R b KQkq - 2 8,5.0,
+2291,17,"Carlsen, Magnus",1,r2qkb1r/1p1n1ppp/2p1pnb1/p2p4/7N/1P1P2P1/PBPNPPBP/R2QK2R w KQkq - 0 9,2.0,2.476
+2291,18,"Dowgird, Filip",0,r2qkb1r/1p1n1ppp/2p1pnN1/p2p4/8/1P1P2P1/PBPNPPBP/R2QK2R b KQkq - 0 9,1.0,
+2291,19,"Carlsen, Magnus",1,r2qkb1r/1p1n1pp1/2p1pnp1/p2p4/8/1P1P2P1/PBPNPPBP/R2QK2R w KQkq - 0 10,0.0,0.752
+2291,20,"Dowgird, Filip",0,r2qkb1r/1p1n1pp1/2p1pnp1/p2p4/8/PP1P2P1/1BPNPPBP/R2QK2R b KQkq - 0 10,14.0,
+2291,21,"Carlsen, Magnus",1,r2qkb1r/1p1n1pp1/2p1pnp1/3p4/p7/PP1P2P1/1BPNPPBP/R2QK2R w KQkq - 0 11,1.0,2.298
+2291,22,"Dowgird, Filip",0,r2qkb1r/1p1n1pp1/2p1pnp1/3p4/pP6/P2P2P1/1BPNPPBP/R2QK2R b KQkq - 0 11,0.0,
+2291,23,"Carlsen, Magnus",1,r2qkb1r/3n1pp1/2p1pnp1/1p1p4/pP6/P2P2P1/1BPNPPBP/R2QK2R w KQkq - 0 12,1.0,1.332
+2291,24,"Dowgird, Filip",0,r2qkb1r/3n1pp1/2p1pnp1/1p1p4/pPP5/P2P2P1/1B1NPPBP/R2QK2R b KQkq - 0 12,17.0,
+2291,25,"Carlsen, Magnus",1,2rqkb1r/3n1pp1/2p1pnp1/1p1p4/pPP5/P2P2P1/1B1NPPBP/R2QK2R w KQk - 1 13,2.0,2.772
+2291,26,"Dowgird, Filip",0,2rqkb1r/3n1pp1/2p1pnp1/1p1p4/pPP5/P2P2P1/1B1NPPBP/2RQK2R b Kk - 2 13,16.0,
+2291,27,"Carlsen, Magnus",1,2rqkb1r/5pp1/1np1pnp1/1p1p4/pPP5/P2P2P1/1B1NPPBP/2RQK2R w Kk - 3 14,3.0,3.786
+2291,28,"Dowgird, Filip",0,2rqkb1r/5pp1/1np1pnp1/1p1p4/pPP5/P2P2P1/1B1NPPBP/2RQ1RK1 b k - 4 14,5.0,
+2291,29,"Carlsen, Magnus",1,2rqk2r/4bpp1/1np1pnp1/1p1p4/pPP5/P2P2P1/1B1NPPBP/2RQ1RK1 w k - 5 15,3.0,4.168
+2291,30,"Dowgird, Filip",0,2rqk2r/4bpp1/1np1pnp1/1p1p4/pPP1P3/P2P2P1/1B1N1PBP/2RQ1RK1 b k - 0 15,28.0,
+2291,31,"Carlsen, Magnus",1,2rqk2r/4bpp1/1np1pnp1/1p6/pPp1P3/P2P2P1/1B1N1PBP/2RQ1RK1 w k - 0 16,1.0,3.45
+2291,32,"Dowgird, Filip",0,2rqk2r/4bpp1/1np1pnp1/1p6/pPP1P3/P5P1/1B1N1PBP/2RQ1RK1 b k - 0 16,1.0,
+2291,33,"Carlsen, Magnus",1,2rq1rk1/4bpp1/1np1pnp1/1p6/pPP1P3/P5P1/1B1N1PBP/2RQ1RK1 w - - 1 17,4.0,4.466
+2291,34,"Dowgird, Filip",0,2rq1rk1/4bpp1/1np1pnp1/1pP5/pP2P3/P5P1/1B1N1PBP/2RQ1RK1 b - - 0 17,9.0,
+2291,35,"Carlsen, Magnus",1,2rq1rk1/3nbpp1/2p1pnp1/1pP5/pP2P3/P5P1/1B1N1PBP/2RQ1RK1 w - - 1 18,0.0,2.196
+2291,36,"Dowgird, Filip",0,2rq1rk1/3nbpp1/2p1pnp1/1pP1P3/pP6/P5P1/1B1N1PBP/2RQ1RK1 b - - 0 18,1.0,
+2291,37,"Carlsen, Magnus",1,2rq1rk1/3nbpp1/2p1p1p1/1pPnP3/pP6/P5P1/1B1N1PBP/2RQ1RK1 w - - 1 19,2.0,2.826
+2291,38,"Dowgird, Filip",0,2rq1rk1/3nbpp1/2p1p1p1/1pPnP3/pP2N3/P5P1/1B3PBP/2RQ1RK1 b - - 2 19,6.0,
+2291,39,"Carlsen, Magnus",1,2r2rk1/2qnbpp1/2p1p1p1/1pPnP3/pP2N3/P5P1/1B3PBP/2RQ1RK1 w - - 3 20,1.0,2.022
+2291,40,"Dowgird, Filip",0,2r2rk1/2qnbpp1/2pNp1p1/1pPnP3/pP6/P5P1/1B3PBP/2RQ1RK1 b - - 4 20,19.0,
+2291,41,"Carlsen, Magnus",1,1r3rk1/2qnbpp1/2pNp1p1/1pPnP3/pP6/P5P1/1B3PBP/2RQ1RK1 w - - 5 21,1.0,2.808
+2291,42,"Dowgird, Filip",0,1r3rk1/2qnbpp1/2pNp1p1/1pPnP3/pP5P/P5P1/1B3PB1/2RQ1RK1 b - - 0 21,7.0,
+2291,43,"Carlsen, Magnus",1,1r1r2k1/2qnbpp1/2pNp1p1/1pPnP3/pP5P/P5P1/1B3PB1/2RQ1RK1 w - - 1 22,9.0,7.876
+2291,44,"Dowgird, Filip",0,1r1r2k1/2qnbpp1/2pNp1p1/1pPnP3/pP5P/P5P1/1B3PB1/2RQR1K1 b - - 2 22,17.0,
+2291,45,"Carlsen, Magnus",1,1r1r1nk1/2q1bpp1/2pNp1p1/1pPnP3/pP5P/P5P1/1B3PB1/2RQR1K1 w - - 3 23,2.0,2.71
+2291,46,"Dowgird, Filip",0,1r1r1nk1/2q1bpp1/2pNp1p1/1pPBP3/pP5P/P5P1/1B3P2/2RQR1K1 b - - 0 23,7.0,
+2291,47,"Carlsen, Magnus",1,1r1r1nk1/2q1bpp1/3Np1p1/1pPpP3/pP5P/P5P1/1B3P2/2RQR1K1 w - - 0 24,2.0,5.586
+2291,48,"Dowgird, Filip",0,1r1r1nk1/2q1bpp1/3Np1p1/1pPpP3/pP5P/P4QP1/1B3P2/2R1R1K1 b - - 1 24,2.0,
+2291,49,"Carlsen, Magnus",1,1r1r1nk1/2q2pp1/3bp1p1/1pPpP3/pP5P/P4QP1/1B3P2/2R1R1K1 w - - 0 25,3.0,3.222
+2291,50,"Dowgird, Filip",0,1r1r1nk1/2q2pp1/3Pp1p1/1pPp4/pP5P/P4QP1/1B3P2/2R1R1K1 b - - 0 25,0.0,
+2291,51,"Carlsen, Magnus",1,1r1r1nk1/5pp1/2qPp1p1/1pPp4/pP5P/P4QP1/1B3P2/2R1R1K1 w - - 1 26,6.0,5.346
+2291,52,"Dowgird, Filip",0,1r1r1nk1/5pp1/2qPp1p1/1pPp3P/pP6/P4QP1/1B3P2/2R1R1K1 b - - 0 26,7.0,
+2291,53,"Carlsen, Magnus",1,3r1nk1/1r3pp1/2qPp1p1/1pPp3P/pP6/P4QP1/1B3P2/2R1R1K1 w - - 1 27,13.0,9.666
+2291,54,"Dowgird, Filip",0,3r1nk1/1r3pB1/2qPp1p1/1pPp3P/pP6/P4QP1/5P2/2R1R1K1 b - - 0 27,2.0,
+2291,55,"Carlsen, Magnus",1,3r1n2/1r3pk1/2qPp1p1/1pPp3P/pP6/P4QP1/5P2/2R1R1K1 w - - 0 28,1.0,1.378
+2291,56,"Dowgird, Filip",0,3r1n2/1r3pk1/2qPp1pP/1pPp4/pP6/P4QP1/5P2/2R1R1K1 b - - 0 28,12.0,
+2291,57,"Carlsen, Magnus",1,3r1n2/1r3p2/2qPp1pk/1pPp4/pP6/P4QP1/5P2/2R1R1K1 w - - 0 29,0.0,1.604
+2885,1,"Carlsen, Magnus",1,rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1,16.0,2.894973064319826
+2885,2,"Alekseenko, Kirill",0,rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1,17.0,
+2885,3,"Carlsen, Magnus",1,rnbqkbnr/ppp1pppp/8/3p4/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2,1.0,1.648
+2885,4,"Alekseenko, Kirill",0,rnbqkbnr/ppp1pppp/8/3p4/8/3P1N2/PPP1PPPP/RNBQKB1R b KQkq - 0 2,7.0,
+2885,5,"Carlsen, Magnus",1,r1bqkbnr/ppp1pppp/2n5/3p4/8/3P1N2/PPP1PPPP/RNBQKB1R w KQkq - 1 3,4.0,3.274
+2885,6,"Alekseenko, Kirill",0,r1bqkbnr/ppp1pppp/2n5/3p4/8/3P1N2/PPPNPPPP/R1BQKB1R b KQkq - 2 3,2.0,
+2885,7,"Carlsen, Magnus",1,r1bqkbnr/ppp2ppp/2n5/3pp3/8/3P1N2/PPPNPPPP/R1BQKB1R w KQkq - 0 4,2.0,2.182
+2885,8,"Alekseenko, Kirill",0,r1bqkbnr/ppp2ppp/2n5/3pp3/4P3/3P1N2/PPPN1PPP/R1BQKB1R b KQkq - 0 4,0.0,
+2885,9,"Carlsen, Magnus",1,r1bqkb1r/ppp2ppp/2n2n2/3pp3/4P3/3P1N2/PPPN1PPP/R1BQKB1R w KQkq - 1 5,0.0,0.65
+2885,10,"Alekseenko, Kirill",0,r1bqkb1r/ppp2ppp/2n2n2/3pp3/4P3/3P1N2/PPPNBPPP/R1BQK2R b KQkq - 2 5,3.0,
+2885,11,"Carlsen, Magnus",1,r1bqk2r/ppp2ppp/2n2n2/2bpp3/4P3/3P1N2/PPPNBPPP/R1BQK2R w KQkq - 3 6,2.0,2.112
+2885,12,"Alekseenko, Kirill",0,r1bqk2r/ppp2ppp/2n2n2/2bpp3/4P3/3P1N2/PPPNBPPP/R1BQ1RK1 b kq - 4 6,1.0,
+2885,13,"Carlsen, Magnus",1,r1bq1rk1/ppp2ppp/2n2n2/2bpp3/4P3/3P1N2/PPPNBPPP/R1BQ1RK1 w - - 5 7,3.0,2.914
+2885,14,"Alekseenko, Kirill",0,r1bq1rk1/ppp2ppp/2n2n2/2bpp3/4P3/1P1P1N2/P1PNBPPP/R1BQ1RK1 b - - 0 7,6.0,
+2885,15,"Carlsen, Magnus",1,r1bqr1k1/ppp2ppp/2n2n2/2bpp3/4P3/1P1P1N2/P1PNBPPP/R1BQ1RK1 w - - 1 8,1.0,3.054
+2885,16,"Alekseenko, Kirill",0,r1bqr1k1/ppp2ppp/2n2n2/2bpp3/4P3/1P1P1N2/PBPNBPPP/R2Q1RK1 b - - 2 8,1.0,
+2885,17,"Carlsen, Magnus",1,r1bqr1k1/1pp2ppp/2n2n2/p1bpp3/4P3/1P1P1N2/PBPNBPPP/R2Q1RK1 w - - 0 9,4.0,3.49
+2885,18,"Alekseenko, Kirill",0,r1bqr1k1/1pp2ppp/2n2n2/p1bpp3/4P3/PP1P1N2/1BPNBPPP/R2Q1RK1 b - - 0 9,2.0,
+2885,19,"Carlsen, Magnus",1,r1bqr1k1/1pp2pp1/2n2n1p/p1bpp3/4P3/PP1P1N2/1BPNBPPP/R2Q1RK1 w - - 0 10,5.0,2.686
+2885,20,"Alekseenko, Kirill",0,r1bqr1k1/1pp2pp1/2n2n1p/p1bpp3/4P3/PPPP1N2/1B1NBPPP/R2Q1RK1 b - - 0 10,22.0,
+2885,21,"Carlsen, Magnus",1,r1bqrbk1/1pp2pp1/2n2n1p/p2pp3/4P3/PPPP1N2/1B1NBPPP/R2Q1RK1 w - - 1 11,2.0,5.17
+2885,22,"Alekseenko, Kirill",0,r1bqrbk1/1pp2pp1/2n2n1p/p2pp3/1P2P3/P1PP1N2/1B1NBPPP/R2Q1RK1 b - - 0 11,7.0,
+2885,23,"Carlsen, Magnus",1,r1bqrbk1/1pp2pp1/2n2n1p/3pp3/1p2P3/P1PP1N2/1B1NBPPP/R2Q1RK1 w - - 0 12,4.0,3.514
+2885,24,"Alekseenko, Kirill",0,r1bqrbk1/1pp2pp1/2n2n1p/3pp3/1P2P3/2PP1N2/1B1NBPPP/R2Q1RK1 b - - 0 12,2.0,
+2885,25,"Carlsen, Magnus",1,2bqrbk1/1pp2pp1/2n2n1p/3pp3/1P2P3/2PP1N2/1B1NBPPP/r2Q1RK1 w - - 0 13,0.0,0.662
+2885,26,"Alekseenko, Kirill",0,2bqrbk1/1pp2pp1/2n2n1p/3pp3/1P2P3/2PP1N2/1B1NBPPP/Q4RK1 b - - 0 13,11.0,
+2885,27,"Carlsen, Magnus",1,2bqrbk1/2p2pp1/2n2n1p/1p1pp3/1P2P3/2PP1N2/1B1NBPPP/Q4RK1 w - - 0 14,6.0,6.418
+2885,28,"Alekseenko, Kirill",0,2bqrbk1/2p2pp1/2n2n1p/1p1pp3/1P2P3/2PP1N2/1B1NBPPP/Q3R1K1 b - - 1 14,1.0,
+2885,29,"Carlsen, Magnus",1,3qrbk1/1bp2pp1/2n2n1p/1p1pp3/1P2P3/2PP1N2/1B1NBPPP/Q3R1K1 w - - 2 15,3.0,3.848
+2885,30,"Alekseenko, Kirill",0,3qrbk1/1bp2pp1/2n2n1p/1p1pp3/1P2P3/2PP1N2/1B1N1PPP/Q3RBK1 b - - 3 15,13.0,
+2885,31,"Carlsen, Magnus",1,4rbk1/1bpq1pp1/2n2n1p/1p1pp3/1P2P3/2PP1N2/1B1N1PPP/Q3RBK1 w - - 4 16,1.0,2.552
+2885,32,"Alekseenko, Kirill",0,4rbk1/1bpq1pp1/2n2n1p/1p1pp3/1P2P3/2PP1N1P/1B1N1PP1/Q3RBK1 b - - 0 16,14.0,
+2885,33,"Carlsen, Magnus",1,4r1k1/1bpq1pp1/2nb1n1p/1p1pp3/1P2P3/2PP1N1P/1B1N1PP1/Q3RBK1 w - - 1 17,10.0,8.318
+2885,34,"Alekseenko, Kirill",0,4r1k1/1bpq1pp1/2nb1n1p/1p1Pp3/1P6/2PP1N1P/1B1N1PP1/Q3RBK1 b - - 0 17,1.0,
+2885,35,"Carlsen, Magnus",1,4r1k1/1bpq1pp1/2nb3p/1p1np3/1P6/2PP1N1P/1B1N1PP1/Q3RBK1 w - - 0 18,1.0,3.572
+2885,36,"Alekseenko, Kirill",0,4r1k1/1bpq1pp1/2nb3p/1p1np3/1P2N3/2PP1N1P/1B3PP1/Q3RBK1 b - - 1 18,5.0,
+2885,37,"Carlsen, Magnus",1,4rbk1/1bpq1pp1/2n4p/1p1np3/1P2N3/2PP1N1P/1B3PP1/Q3RBK1 w - - 2 19,4.0,4.984
+2885,38,"Alekseenko, Kirill",0,4rbk1/1bpq1pp1/2n4p/1p1np3/1P2N3/2PP1N1P/1B3PP1/1Q2RBK1 b - - 3 19,3.0,
+2885,39,"Carlsen, Magnus",1,4rbk1/1bpq1pp1/2n4p/1p2p3/1P2Nn2/2PP1N1P/1B3PP1/1Q2RBK1 w - - 4 20,1.0,2.434
+2885,40,"Alekseenko, Kirill",0,4rbk1/1bpq1pp1/2n4p/1p2p3/1P2Nn2/2PP1N1P/5PP1/1QB1RBK1 b - - 5 20,4.0,
+2885,41,"Carlsen, Magnus",1,4rbk1/1bpq1pp1/2n1n2p/1p2p3/1P2N3/2PP1N1P/5PP1/1QB1RBK1 w - - 6 21,1.0,2.41
+2885,42,"Alekseenko, Kirill",0,4rbk1/1bpq1pp1/2n1n2p/1p2p3/1P2N3/2PPBN1P/5PP1/1Q2RBK1 b - - 7 21,3.0,
+2885,43,"Carlsen, Magnus",1,4rbk1/1bpq2p1/2n1np1p/1p2p3/1P2N3/2PPBN1P/5PP1/1Q2RBK1 w - - 0 22,10.0,8.106
+2885,44,"Alekseenko, Kirill",0,4rbk1/1bpq2p1/2n1np1p/1p2p3/1P2N3/2PPBN1P/5PP1/1Q1R1BK1 b - - 1 22,2.0,
+2885,45,"Carlsen, Magnus",1,4rbk1/1bpqn1p1/4np1p/1p2p3/1P2N3/2PPBN1P/5PP1/1Q1R1BK1 w - - 2 23,3.0,3.426
+2885,46,"Alekseenko, Kirill",0,4rbk1/1bpqn1p1/4np1p/1p2p3/1P1PN3/2P1BN1P/5PP1/1Q1R1BK1 b - - 0 23,21.0,
+2885,47,"Carlsen, Magnus",1,4rbk1/1bpqn1p1/4np1p/1p6/1P1pN3/2P1BN1P/5PP1/1Q1R1BK1 w - - 0 24,2.0,2.848
+2885,48,"Alekseenko, Kirill",0,4rbk1/1bpqn1p1/4np1p/1p6/1P1NN3/2P1B2P/5PP1/1Q1R1BK1 b - - 0 24,2.0,
+2885,49,"Carlsen, Magnus",1,4rbk1/1bpqn1p1/5p1p/1p6/1P1nN3/2P1B2P/5PP1/1Q1R1BK1 w - - 0 25,7.0,6.126
+2885,50,"Alekseenko, Kirill",0,4rbk1/1bpqn1p1/5p1p/1p6/1P1BN3/2P4P/5PP1/1Q1R1BK1 b - - 0 25,7.0,
+2885,51,"Carlsen, Magnus",1,4rbk1/1bp1n1p1/2q2p1p/1p6/1P1BN3/2P4P/5PP1/1Q1R1BK1 w - - 1 26,6.0,6.834
+2885,52,"Alekseenko, Kirill",0,4rbk1/1bp1n1p1/2q2p1p/1pN5/1P1B4/2P4P/5PP1/1Q1R1BK1 b - - 2 26,1.0,
+2885,53,"Carlsen, Magnus",1,b3rbk1/2p1n1p1/2q2p1p/1pN5/1P1B4/2P4P/5PP1/1Q1R1BK1 w - - 3 27,3.0,4.122
+2885,54,"Alekseenko, Kirill",0,b3rbk1/2p1n1p1/2q2p1p/1pN5/1P1B4/2P4P/Q4PP1/3R1BK1 b - - 4 27,4.0,
+2885,55,"Carlsen, Magnus",1,b3rbk1/2p3p1/2q2p1p/1pNn4/1P1B4/2P4P/Q4PP1/3R1BK1 w - - 5 28,16.0,13.892
+2885,56,"Alekseenko, Kirill",0,b3rbk1/2p3p1/2q2p1p/QpNn4/1P1B4/2P4P/5PP1/3R1BK1 b - - 6 28,6.0,
+2885,57,"Carlsen, Magnus",1,br3bk1/2p3p1/2q2p1p/QpNn4/1P1B4/2P4P/5PP1/3R1BK1 w - - 7 29,5.0,5.736
+2885,58,"Alekseenko, Kirill",0,br3bk1/2p3p1/N1q2p1p/Qp1n4/1P1B4/2P4P/5PP1/3R1BK1 b - - 8 29,9.0,
+2885,59,"Carlsen, Magnus",1,b4bk1/1rp3p1/N1q2p1p/Qp1n4/1P1B4/2P4P/5PP1/3R1BK1 w - - 9 30,8.0,7.364
+2885,60,"Alekseenko, Kirill",0,b4bk1/1rp3p1/N1q2p1p/Qp1n4/1P1B4/2P4P/5PP1/4RBK1 b - - 10 30,12.0,
+2885,61,"Carlsen, Magnus",1,b4bk1/1rp3p1/N1q2p1p/Qp6/1P1B1n2/2P4P/5PP1/4RBK1 w - - 11 31,25.0,7.946
+2885,62,"Alekseenko, Kirill",0,b4bk1/1rp3p1/N1q2p1p/1p6/1P1B1n2/2P4P/Q4PP1/4RBK1 b - - 12 31,2.0,
+2885,63,"Carlsen, Magnus",1,b4b1k/1rp3p1/N1q2p1p/1p6/1P1B1n2/2P4P/Q4PP1/4RBK1 w - - 13 32,21.0,15.69
+2885,64,"Alekseenko, Kirill",0,b4b1k/1rp2Qp1/N1q2p1p/1p6/1P1B1n2/2P4P/5PP1/4RBK1 b - - 14 32,16.0,
+3566,1,"Christiansen, Johan-Sebastian",1,rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1,2.0,
+3566,2,"Carlsen, Magnus",0,rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1,3.0,6.9373226412879605
+3566,3,"Christiansen, Johan-Sebastian",1,rnbqkbnr/1ppppppp/p7/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2,3.0,
+3566,4,"Carlsen, Magnus",0,rnbqkbnr/1ppppppp/p7/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2,2.0,2.853283333333333
+3566,5,"Christiansen, Johan-Sebastian",1,rnbqkbnr/1ppp1ppp/p3p3/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3,4.0,
+3566,6,"Carlsen, Magnus",0,rnbqkbnr/1ppp1ppp/p3p3/8/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3,3.0,2.81
+3566,7,"Christiansen, Johan-Sebastian",1,rnbqkbnr/2pp1ppp/p3p3/1p6/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4,3.0,
+3566,8,"Carlsen, Magnus",0,rnbqkbnr/2pp1ppp/p3p3/1p6/3PP3/P1N5/1PP2PPP/R1BQKBNR b KQkq - 0 4,3.0,2.744
+3566,9,"Christiansen, Johan-Sebastian",1,rn1qkbnr/1bpp1ppp/p3p3/1p6/3PP3/P1N5/1PP2PPP/R1BQKBNR w KQkq - 1 5,3.0,
+3566,10,"Carlsen, Magnus",0,rn1qkbnr/1bpp1ppp/p3p3/1p6/3PP3/P1NB4/1PP2PPP/R1BQK1NR b KQkq - 2 5,2.0,3.788
+3566,11,"Christiansen, Johan-Sebastian",1,rn1qkbnr/1b1p1ppp/p3p3/1pp5/3PP3/P1NB4/1PP2PPP/R1BQK1NR w KQkq - 0 6,6.0,
+3566,12,"Carlsen, Magnus",0,rn1qkbnr/1b1p1ppp/p3p3/1pp5/3PP3/P1NB1N2/1PP2PPP/R1BQK2R b KQkq - 1 6,5.0,3.868
+3566,13,"Christiansen, Johan-Sebastian",1,rn1qkbnr/1b1p1ppp/p3p3/1p6/2pPP3/P1NB1N2/1PP2PPP/R1BQK2R w KQkq - 0 7,3.0,
+3566,14,"Carlsen, Magnus",0,rn1qkbnr/1b1p1ppp/p3p3/1p6/2pPP3/P1N2N2/1PP1BPPP/R1BQK2R b KQkq - 1 7,1.0,2.464
+3566,15,"Christiansen, Johan-Sebastian",1,rn1qkb1r/1b1p1ppp/p3pn2/1p6/2pPP3/P1N2N2/1PP1BPPP/R1BQK2R w KQkq - 2 8,5.0,
+3566,16,"Carlsen, Magnus",0,rn1qkb1r/1b1p1ppp/p3pn2/1p1P4/2p1P3/P1N2N2/1PP1BPPP/R1BQK2R b KQkq - 0 8,5.0,2.918
+3566,17,"Christiansen, Johan-Sebastian",1,rn1qk2r/1b1p1ppp/p3pn2/1pbP4/2p1P3/P1N2N2/1PP1BPPP/R1BQK2R w KQkq - 1 9,4.0,
+3566,18,"Carlsen, Magnus",0,rn1qk2r/1b1p1ppp/p3pn2/1pbP4/2p1P3/P1N2N2/1PP1BPPP/R1BQ1RK1 b kq - 2 9,8.0,4.656
+3566,19,"Christiansen, Johan-Sebastian",1,rn1q1rk1/1b1p1ppp/p3pn2/1pbP4/2p1P3/P1N2N2/1PP1BPPP/R1BQ1RK1 w - - 3 10,2.0,
+3566,20,"Carlsen, Magnus",0,rn1q1rk1/1b1p1ppp/p3pn2/1pbP2B1/2p1P3/P1N2N2/1PP1BPPP/R2Q1RK1 b - - 4 10,2.0,3.392
+3566,21,"Christiansen, Johan-Sebastian",1,rn1q1rk1/1b1p1pp1/p3pn1p/1pbP2B1/2p1P3/P1N2N2/1PP1BPPP/R2Q1RK1 w - - 0 11,1.0,
+3566,22,"Carlsen, Magnus",0,rn1q1rk1/1b1p1pp1/p3pn1p/1pbP4/2p1P2B/P1N2N2/1PP1BPPP/R2Q1RK1 b - - 1 11,5.0,4.682
+3566,23,"Christiansen, Johan-Sebastian",1,rn1q1rk1/1b3pp1/p2ppn1p/1pbP4/2p1P2B/P1N2N2/1PP1BPPP/R2Q1RK1 w - - 0 12,14.0,
+3566,24,"Carlsen, Magnus",0,rn1q1rk1/1b3pp1/p2ppn1p/1pbP4/2pNP2B/P1N5/1PP1BPPP/R2Q1RK1 b - - 1 12,54.0,6.128
+3566,25,"Christiansen, Johan-Sebastian",1,rn1q1rk1/1b3pp1/p2p1n1p/1pbPp3/2pNP2B/P1N5/1PP1BPPP/R2Q1RK1 w - - 0 13,3.0,
+3566,26,"Carlsen, Magnus",0,rn1q1rk1/1b3pp1/p2p1n1p/1pbPpN2/2p1P2B/P1N5/1PP1BPPP/R2Q1RK1 b - - 1 13,4.0,6.656
+3566,27,"Christiansen, Johan-Sebastian",1,rnbq1rk1/5pp1/p2p1n1p/1pbPpN2/2p1P2B/P1N5/1PP1BPPP/R2Q1RK1 w - - 2 14,37.0,
+3566,28,"Carlsen, Magnus",0,rnbq1rk1/5pp1/p2p1n1p/1pbPpN2/2p1P2B/P1N5/1PP1BPPP/R2Q1R1K b - - 3 14,5.0,7.094
+3566,29,"Christiansen, Johan-Sebastian",1,rn1q1rk1/5pp1/p2p1n1p/1pbPpb2/2p1P2B/P1N5/1PP1BPPP/R2Q1R1K w - - 0 15,1.0,
+3566,30,"Carlsen, Magnus",0,rn1q1rk1/5pp1/p2p1n1p/1pbPpP2/2p4B/P1N5/1PP1BPPP/R2Q1R1K b - - 0 15,2.0,10.31
+3566,31,"Christiansen, Johan-Sebastian",1,r2q1rk1/3n1pp1/p2p1n1p/1pbPpP2/2p4B/P1N5/1PP1BPPP/R2Q1R1K w - - 1 16,2.0,
+3566,32,"Carlsen, Magnus",0,r2q1rk1/3n1pp1/p2p1n1p/1pbPpP2/2p1N2B/P7/1PP1BPPP/R2Q1R1K b - - 2 16,5.0,8.746
+3566,33,"Christiansen, Johan-Sebastian",1,r4rk1/3n1pp1/pq1p1n1p/1pbPpP2/2p1N2B/P7/1PP1BPPP/R2Q1R1K w - - 3 17,6.0,
+3566,34,"Carlsen, Magnus",0,r4rk1/3n1pp1/pq1p1B1p/1pbPpP2/2p1N3/P7/1PP1BPPP/R2Q1R1K b - - 0 17,1.0,5.684
+3566,35,"Christiansen, Johan-Sebastian",1,r4rk1/5pp1/pq1p1n1p/1pbPpP2/2p1N3/P7/1PP1BPPP/R2Q1R1K w - - 0 18,2.0,
+3566,36,"Carlsen, Magnus",0,r4rk1/5pp1/pq1p1N1p/1pbPpP2/2p5/P7/1PP1BPPP/R2Q1R1K b - - 0 18,2.0,3.334
+3566,37,"Christiansen, Johan-Sebastian",1,r4rk1/5p2/pq1p1p1p/1pbPpP2/2p5/P7/1PP1BPPP/R2Q1R1K w - - 0 19,6.0,
+3566,38,"Carlsen, Magnus",0,r4rk1/5p2/pq1p1p1p/1pbPpP2/2p2P2/P7/1PP1B1PP/R2Q1R1K b - - 0 19,5.0,9.43
+3566,39,"Christiansen, Johan-Sebastian",1,r4rk1/5p2/pq1p1p1p/1pbP1P2/2p1pP2/P7/1PP1B1PP/R2Q1R1K w - - 0 20,4.0,
+3566,40,"Carlsen, Magnus",0,r4rk1/5p2/pq1p1p1p/1pbP1P1B/2p1pP2/P7/1PP3PP/R2Q1R1K b - - 1 20,6.0,8.738
+3566,41,"Christiansen, Johan-Sebastian",1,r3r1k1/5p2/pq1p1p1p/1pbP1P1B/2p1pP2/P7/1PP3PP/R2Q1R1K w - - 2 21,3.0,
+3566,42,"Carlsen, Magnus",0,r3r1k1/5p2/pq1p1p1p/1pbP1P1B/2p1pPQ1/P7/1PP3PP/R4R1K b - - 3 21,2.0,6.092
+3566,43,"Christiansen, Johan-Sebastian",1,r3rk2/5p2/pq1p1p1p/1pbP1P1B/2p1pPQ1/P7/1PP3PP/R4R1K w - - 4 22,24.0,
+3566,44,"Carlsen, Magnus",0,r3rk2/5p2/pq1p1p1p/1pbP1P1B/2p1pPQ1/P7/1PP3PP/4RR1K b - - 5 22,3.0,8.656
+3566,45,"Christiansen, Johan-Sebastian",1,r3rk2/5p2/pq1p1p1p/1pbP1P1B/2p2PQ1/P3p3/1PP3PP/4RR1K w - - 0 23,10.0,
+3566,46,"Carlsen, Magnus",0,r3rk2/5p2/pq1p1p1p/1pbP1P1B/2p2PQ1/P3pR2/1PP3PP/4R2K b - - 1 23,10.0,6.878
+3566,47,"Christiansen, Johan-Sebastian",1,r3r3/4kp2/pq1p1p1p/1pbP1P1B/2p2PQ1/P3pR2/1PP3PP/4R2K w - - 2 24,4.0,
+3566,48,"Carlsen, Magnus",0,r3r3/4kpQ1/pq1p1p1p/1pbP1P1B/2p2P2/P3pR2/1PP3PP/4R2K b - - 3 24,2.0,5.994
+3566,49,"Christiansen, Johan-Sebastian",1,r4r2/4kpQ1/pq1p1p1p/1pbP1P1B/2p2P2/P3pR2/1PP3PP/4R2K w - - 4 25,8.0,
+3566,50,"Carlsen, Magnus",0,r4r2/4kpQ1/pq1p1p1p/1pbP1P1B/1Pp2P2/P3pR2/2P3PP/4R2K b - b3 0 25,3.0,3.484
+3566,51,"Christiansen, Johan-Sebastian",1,r4r2/4kpQ1/pq1p1p1p/1pbP1P1B/5P2/Pp2pR2/2P3PP/4R2K w - - 0 26,1.0,
+3566,52,"Carlsen, Magnus",0,r4r2/4kpQ1/pq1p1p1p/1pbP1P1B/5P2/PP2pR2/6PP/4R2K b - - 0 26,5.0,6.214
+3566,53,"Christiansen, Johan-Sebastian",1,r4r2/4kpQ1/1q1p1p1p/ppbP1P1B/5P2/PP2pR2/6PP/4R2K w - - 0 27,3.0,
+3566,54,"Carlsen, Magnus",0,r4r2/4kpQ1/1q1p1p1p/ppbP1P1B/1P3P2/P3pR2/6PP/4R2K b - - 0 27,2.0,3.848
+3566,55,"Christiansen, Johan-Sebastian",1,r4r2/4kpQ1/1q1p1p1p/1pbP1P1B/1p3P2/P3pR2/6PP/4R2K w - - 0 28,1.0,
+3566,56,"Carlsen, Magnus",0,r4r2/4kpQ1/1q1p1p1p/1pbP1P1B/1P3P2/4pR2/6PP/4R2K b - - 0 28,2.0,6.52
+3566,57,"Christiansen, Johan-Sebastian",1,r4r2/4kpQ1/1q1p1p1p/1p1P1P1B/1P1b1P2/4pR2/6PP/4R2K w - - 1 29,16.0,
+3566,58,"Carlsen, Magnus",0,r4r2/4kpQ1/1q1p1p1p/1p1P1P1B/1P1b1P2/4pR1P/6P1/4R2K b - - 0 29,14.0,10.058
+3566,59,"Christiansen, Johan-Sebastian",1,5r2/4kpQ1/1q1p1p1p/1p1P1P1B/1P1b1P2/r3pR1P/6P1/4R2K w - - 1 30,7.0,
+3566,60,"Carlsen, Magnus",0,5r2/4kpQ1/1q1p1p1p/1p1P1P1B/1P1b1P2/r3pR1P/6PK/4R3 b - - 2 30,7.0,9.256
+3566,61,"Christiansen, Johan-Sebastian",1,5r2/2q1kpQ1/3p1p1p/1p1P1P1B/1P1b1P2/r3pR1P/6PK/4R3 w - - 3 31,12.0,
+3566,62,"Carlsen, Magnus",0,5r2/2q1kpQ1/3p1p1p/1p1P1P1B/1P1b1P2/r3pR1P/4R1PK/8 b - - 4 31,11.0,10.382
+3566,63,"Christiansen, Johan-Sebastian",1,5r2/4kpQ1/3p1p1p/1p1P1P1B/1Pqb1P2/r3pR1P/4R1PK/8 w - - 5 32,14.0,
+3566,64,"Carlsen, Magnus",0,5r2/4kpQ1/3p1p1p/1p1P1P1B/1Pqb1P2/r3p2P/4R1PK/5R2 b - - 6 32,2.0,5.248
+3566,65,"Christiansen, Johan-Sebastian",1,5r2/4kpQ1/3p1p1p/1p1q1P1B/1P1b1P2/r3p2P/4R1PK/5R2 w - - 0 33,2.0,
+3566,66,"Carlsen, Magnus",0,5r2/4kpQ1/3p1p1p/1p1q1P1B/1P1b1P2/r3p2P/4R1PK/2R5 b - - 1 33,10.0,5.204
+3566,67,"Christiansen, Johan-Sebastian",1,5r2/4kpQ1/1b1p1p1p/1p1q1P1B/1P3P2/r3p2P/4R1PK/2R5 w - - 2 34,24.0,
+3566,68,"Carlsen, Magnus",0,5r2/4kpQ1/1b1p1p1p/1p1q1P1B/1P3P2/r3p1PP/4R2K/2R5 b - - 0 34,7.0,7.53
+3566,69,"Christiansen, Johan-Sebastian",1,5r2/4kpQ1/1b1p1p1p/1p1q1P1B/1P3P2/4p1PP/r3R2K/2R5 w - - 1 35,2.0,
+3566,70,"Carlsen, Magnus",0,5r2/4kpQ1/1b1p1p1p/1p1q1P1B/1P3P2/4p1PP/r1R1R2K/8 b - - 2 35,2.0,7.572
+3566,71,"Christiansen, Johan-Sebastian",1,5r2/4kpQ1/1b1p1p1p/1p1q1P1B/1P3P2/4p1PP/2r1R2K/8 w - - 0 36,2.0,
+3566,72,"Carlsen, Magnus",0,5r2/4kpQ1/1b1p1p1p/1p1q1P1B/1P3P2/4p1PP/2R4K/8 b - - 0 36,6.0,4.384
+3566,73,"Christiansen, Johan-Sebastian",1,5r2/4kpQ1/1b1p1p1p/1p3q1B/1P3P2/4p1PP/2R4K/8 w - - 0 37,6.0,
+3566,74,"Carlsen, Magnus",0,5r2/4kpQ1/1bRp1p1p/1p3q1B/1P3P2/4p1PP/7K/8 b - - 1 37,5.0,5.596
+3566,75,"Christiansen, Johan-Sebastian",1,5r2/4kpQ1/1bRp1p1p/1p5q/1P3P2/4p1PP/7K/8 w - - 0 38,5.0,
+3566,76,"Carlsen, Magnus",0,5r2/4kpQ1/1R1p1p1p/1p5q/1P3P2/4p1PP/7K/8 b - - 0 38,2.0,3.462
+3566,77,"Christiansen, Johan-Sebastian",1,5r2/4kpQ1/1R1p1p1p/1p6/1P3P2/4p1PP/4q2K/8 w - - 1 39,1.0,
+3566,78,"Carlsen, Magnus",0,5r2/4kpQ1/1R1p1p1p/1p6/1P3P2/4p1PP/4q3/7K b - - 2 39,2.0,4.932
+3566,79,"Christiansen, Johan-Sebastian",1,5r2/4kpQ1/1R1p1p1p/1p6/1P3P2/4p1PP/8/5q1K w - - 3 40,2.0,
+3566,80,"Carlsen, Magnus",0,5r2/4kpQ1/1R1p1p1p/1p6/1P3P2/4p1PP/7K/5q2 b - - 4 40,3.0,3.604
+3566,81,"Christiansen, Johan-Sebastian",1,5r2/4kpQ1/1R1p1p1p/1p6/1P3P2/4p1PP/5q1K/8 w - - 5 41,1.0,
+3566,82,"Carlsen, Magnus",0,5r2/4kpQ1/1R1p1p1p/1p6/1P3P2/4p1PP/5q2/7K b - - 6 41,1.0,3.802
+3566,83,"Christiansen, Johan-Sebastian",1,5r2/4kpQ1/1R1p1p1p/1p6/1P3P2/4pqPP/8/7K w - - 7 42,5.0,
+3566,84,"Carlsen, Magnus",0,5r2/4kpQ1/1R1p1p1p/1p6/1P3P2/4pqPP/7K/8 b - - 8 42,2.0,3.308
+4178,1,"Carlsen, Magnus",1,rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1,3.0,2.894973064319826
+4178,2,Bharath Subramaniyam H,0,rnbqkbnr/pppppppp/8/8/8/4P3/PPPP1PPP/RNBQKBNR b KQkq - 0 1,2.0,
+4178,3,"Carlsen, Magnus",1,rnbqkbnr/ppp1pppp/8/3p4/8/4P3/PPPP1PPP/RNBQKBNR w KQkq - 0 2,3.0,0.9982608695652174
+4178,4,Bharath Subramaniyam H,0,rnbqkbnr/ppp1pppp/8/3p4/2P5/4P3/PP1P1PPP/RNBQKBNR b KQkq - 0 2,1.0,
+4178,5,"Carlsen, Magnus",1,rnbqkbnr/pp2pppp/2p5/3p4/2P5/4P3/PP1P1PPP/RNBQKBNR w KQkq - 0 3,1.0,2.6920705627705632
+4178,6,Bharath Subramaniyam H,0,rnbqkbnr/pp2pppp/2p5/3p4/2P5/4PN2/PP1P1PPP/RNBQKB1R b KQkq - 1 3,1.0,
+4178,7,"Carlsen, Magnus",1,rnbqkb1r/pp2pppp/2p2n2/3p4/2P5/4PN2/PP1P1PPP/RNBQKB1R w KQkq - 2 4,4.0,1.9261666666666668
+4178,8,Bharath Subramaniyam H,0,rnbqkb1r/pp2pppp/2p2n2/3p4/2P5/2N1PN2/PP1P1PPP/R1BQKB1R b KQkq - 3 4,0.0,
+4178,9,"Carlsen, Magnus",1,rnbqkb1r/pp3ppp/2p1pn2/3p4/2P5/2N1PN2/PP1P1PPP/R1BQKB1R w KQkq - 0 5,0.0,1.215
+4178,10,Bharath Subramaniyam H,0,rnbqkb1r/pp3ppp/2p1pn2/3p4/2P5/1PN1PN2/P2P1PPP/R1BQKB1R b KQkq - 0 5,2.0,
+4178,11,"Carlsen, Magnus",1,rnbqk2r/pp3ppp/2pbpn2/3p4/2P5/1PN1PN2/P2P1PPP/R1BQKB1R w KQkq - 1 6,2.0,2.387789682539682
+4178,12,Bharath Subramaniyam H,0,rnbqk2r/pp3ppp/2pbpn2/3p4/2PP4/1PN1PN2/P4PPP/R1BQKB1R b KQkq - 0 6,2.0,
+4178,13,"Carlsen, Magnus",1,r1bqk2r/pp1n1ppp/2pbpn2/3p4/2PP4/1PN1PN2/P4PPP/R1BQKB1R w KQkq - 1 7,2.0,2.7696
+4178,14,Bharath Subramaniyam H,0,r1bqk2r/pp1n1ppp/2pbpn2/3p4/2PP4/1PN1PN2/PB3PPP/R2QKB1R b KQkq - 2 7,6.0,
+4178,15,"Carlsen, Magnus",1,r1bq1rk1/pp1n1ppp/2pbpn2/3p4/2PP4/1PN1PN2/PB3PPP/R2QKB1R w KQ - 3 8,2.0,3.92
+4178,16,Bharath Subramaniyam H,0,r1bq1rk1/pp1n1ppp/2pbpn2/3p4/2PP4/1PNBPN2/PB3PPP/R2QK2R b KQ - 4 8,27.0,
+4178,17,"Carlsen, Magnus",1,r1bq1rk1/p2n1ppp/1ppbpn2/3p4/2PP4/1PNBPN2/PB3PPP/R2QK2R w KQ - 0 9,2.0,5.49
+4178,18,Bharath Subramaniyam H,0,r1bq1rk1/p2n1ppp/1ppbpn2/3p4/2PP4/1PNBPN2/PB3PPP/R2Q1RK1 b - - 1 9,2.0,
+4178,19,"Carlsen, Magnus",1,r2q1rk1/pb1n1ppp/1ppbpn2/3p4/2PP4/1PNBPN2/PB3PPP/R2Q1RK1 w - - 2 10,8.0,3.056
+4178,20,Bharath Subramaniyam H,0,r2q1rk1/pb1n1ppp/1ppbpn2/3p4/2PP4/1PNBPN2/PB2QPPP/R4RK1 b - - 3 10,4.0,
+4178,21,"Carlsen, Magnus",1,r4rk1/pb1nqppp/1ppbpn2/3p4/2PP4/1PNBPN2/PB2QPPP/R4RK1 w - - 4 11,7.0,3.498
+4178,22,Bharath Subramaniyam H,0,r4rk1/pb1nqppp/1ppbpn2/3P4/3P4/1PNBPN2/PB2QPPP/R4RK1 b - - 0 11,6.0,
+4178,23,"Carlsen, Magnus",1,r4rk1/pb1nqppp/1ppb1n2/3p4/3P4/1PNBPN2/PB2QPPP/R4RK1 w - - 0 12,1.0,5.562
+4178,24,Bharath Subramaniyam H,0,r4rk1/pb1nqppp/Bppb1n2/3p4/3P4/1PN1PN2/PB2QPPP/R4RK1 b - - 1 12,6.0,
+4178,25,"Carlsen, Magnus",1,r4rk1/p2nqppp/bppb1n2/3p4/3P4/1PN1PN2/PB2QPPP/R4RK1 w - - 0 13,1.0,3.696
+4178,26,Bharath Subramaniyam H,0,r4rk1/p2nqppp/Qppb1n2/3p4/3P4/1PN1PN2/PB3PPP/R4RK1 b - - 0 13,3.0,
+4178,27,"Carlsen, Magnus",1,r4rk1/p2nqppp/Qppb4/3p4/3Pn3/1PN1PN2/PB3PPP/R4RK1 w - - 1 14,1.0,6.826
+4178,28,Bharath Subramaniyam H,0,r4rk1/p2nqppp/Qppb4/3p4/3Pn3/1PN1PN2/PB3PPP/2R2RK1 b - - 2 14,8.0,
+4178,29,"Carlsen, Magnus",1,r4rk1/p3qppp/Qppb1n2/3p4/3Pn3/1PN1PN2/PB3PPP/2R2RK1 w - - 3 15,3.0,2.606
+4178,30,Bharath Subramaniyam H,0,r4rk1/p3qppp/Qppb1n2/3p4/3PN3/1P2PN2/PB3PPP/2R2RK1 b - - 0 15,1.0,
+4178,31,"Carlsen, Magnus",1,r4rk1/p3qppp/Qppb1n2/8/3Pp3/1P2PN2/PB3PPP/2R2RK1 w - - 0 16,1.0,4.482
+4178,32,Bharath Subramaniyam H,0,r4rk1/p3qppp/Qppb1n2/4N3/3Pp3/1P2P3/PB3PPP/2R2RK1 b - - 1 16,3.0,
+4178,33,"Carlsen, Magnus",1,r4rk1/p3qppp/Qp1b1n2/2p1N3/3Pp3/1P2P3/PB3PPP/2R2RK1 w - - 0 17,4.0,4.888
+4178,34,Bharath Subramaniyam H,0,r4rk1/p3qppp/Qp1b1n2/2p1N3/3Pp3/1P2P2P/PB3PP1/2R2RK1 b - - 0 17,11.0,
+4178,35,"Carlsen, Magnus",1,r4rk1/p3qppp/Qp1b4/2pnN3/3Pp3/1P2P2P/PB3PP1/2R2RK1 w - - 1 18,5.0,7.426
+4178,36,Bharath Subramaniyam H,0,r4rk1/p3qppp/1p1b4/2pnN3/2QPp3/1P2P2P/PB3PP1/2R2RK1 b - - 2 18,16.0,
+4178,37,"Carlsen, Magnus",1,r4rk1/p4ppp/1p1bq3/2pnN3/2QPp3/1P2P2P/PB3PP1/2R2RK1 w - - 3 19,4.0,7.12
+4178,38,Bharath Subramaniyam H,0,r4rk1/p4ppp/1p1bq3/2pnN3/2QPp3/1P2P2P/PB3PP1/2RR2K1 b - - 4 19,18.0,
+4178,39,"Carlsen, Magnus",1,r4rk1/p4ppp/1p2q3/2pnb3/2QPp3/1P2P2P/PB3PP1/2RR2K1 w - - 0 20,1.0,3.086
+4178,40,Bharath Subramaniyam H,0,r4rk1/p4ppp/1p2q3/2pnP3/2Q1p3/1P2P2P/PB3PP1/2RR2K1 b - - 0 20,1.0,
+4178,41,"Carlsen, Magnus",1,r4rk1/p4ppp/1p2q3/2p1P3/1nQ1p3/1P2P2P/PB3PP1/2RR2K1 w - - 1 21,7.0,4.394
+4178,42,Bharath Subramaniyam H,0,r4rk1/p4ppp/1p2q3/2p1P3/1n2Q3/1P2P2P/PB3PP1/2RR2K1 b - - 0 21,1.0,
+4178,43,"Carlsen, Magnus",1,r4rk1/p4ppp/1p2q3/2p1P3/4Q3/1P2P2P/nB3PP1/2RR2K1 w - - 0 22,9.0,3.462
+4178,44,Bharath Subramaniyam H,0,r4rk1/p4ppp/1p2q3/2p1P3/2R1Q3/1P2P2P/nB3PP1/3R2K1 b - - 1 22,6.0,
+4178,45,"Carlsen, Magnus",1,3r1rk1/p4ppp/1p2q3/2p1P3/2R1Q3/1P2P2P/nB3PP1/3R2K1 w - - 2 23,1.0,3.562
+4178,46,Bharath Subramaniyam H,0,3R1rk1/p4ppp/1p2q3/2p1P3/2R1Q3/1P2P2P/nB3PP1/6K1 b - - 0 23,0.0,
+4178,47,"Carlsen, Magnus",1,3r2k1/p4ppp/1p2q3/2p1P3/2R1Q3/1P2P2P/nB3PP1/6K1 w - - 0 24,0.0,5.272
+4178,48,Bharath Subramaniyam H,0,3r2k1/p4ppp/1p2q3/2p1P3/R3Q3/1P2P2P/nB3PP1/6K1 b - - 1 24,5.0,
+4178,49,"Carlsen, Magnus",1,3r2k1/p4ppp/1p6/2p1P3/R3Q3/1q2P2P/nB3PP1/6K1 w - - 0 25,1.0,5.444
+4178,50,Bharath Subramaniyam H,0,3r2k1/p4ppp/1p2P3/2p5/R3Q3/1q2P2P/nB3PP1/6K1 b - - 0 25,37.0,
+4178,51,"Carlsen, Magnus",1,3r2k1/p4ppp/1p2P3/2p5/R3Q3/4P2P/nq3PP1/6K1 w - - 0 26,9.0,6.372
+4178,52,Bharath Subramaniyam H,0,3r2k1/p3Pppp/1p6/2p5/R3Q3/4P2P/nq3PP1/6K1 b - - 0 26,5.0,
+4178,53,"Carlsen, Magnus",1,4r1k1/p3Pppp/1p6/2p5/R3Q3/4P2P/nq3PP1/6K1 w - - 1 27,1.0,3.16
+4178,54,Bharath Subramaniyam H,0,4r1k1/R3Pppp/1p6/2p5/4Q3/4P2P/nq3PP1/6K1 b - - 0 27,15.0,
+4178,55,"Carlsen, Magnus",1,4r1k1/R3Pppp/1p6/1qp5/4Q3/4P2P/n4PP1/6K1 w - - 1 28,8.0,4.682
+4178,56,Bharath Subramaniyam H,0,4r1k1/4Pppp/1p6/1qp5/4Q3/4P2P/R4PP1/6K1 b - - 0 28,1.0,
+4178,57,"Carlsen, Magnus",1,4r1k1/3qPppp/1p6/2p5/4Q3/4P2P/R4PP1/6K1 w - - 1 29,1.0,5.168
+4178,58,Bharath Subramaniyam H,0,R3r1k1/3qPppp/1p6/2p5/4Q3/4P2P/5PP1/6K1 b - - 2 29,5.0,
+4178,59,"Carlsen, Magnus",1,R3r1k1/3qPp1p/1p4p1/2p5/4Q3/4P2P/5PP1/6K1 w - - 0 30,3.0,5.786
+4178,60,Bharath Subramaniyam H,0,4R1k1/3qPp1p/1p4p1/2p5/4Q3/4P2P/5PP1/6K1 b - - 0 30,0.0,
+4178,61,"Carlsen, Magnus",1,4q1k1/4Pp1p/1p4p1/2p5/4Q3/4P2P/5PP1/6K1 w - - 0 31,1.0,6.284
+4178,62,Bharath Subramaniyam H,0,4q1k1/4Pp1p/1p4p1/2p1Q3/8/4P2P/5PP1/6K1 b - - 1 31,1.0,
+4178,63,"Carlsen, Magnus",1,4q1k1/4Pp1p/1p4p1/4Q3/2p5/4P2P/5PP1/6K1 w - - 0 32,2.0,3.844
+4178,64,Bharath Subramaniyam H,0,4q1k1/4Pp1p/1p1Q2p1/8/2p5/4P2P/5PP1/6K1 b - - 1 32,1.0,
+4178,65,"Carlsen, Magnus",1,4q1k1/4P2p/1p1Q2p1/5p2/2p5/4P2P/5PP1/6K1 w - - 0 33,24.0,2.738
+4178,66,Bharath Subramaniyam H,0,4q1k1/4P2p/1p4p1/3Q1p2/2p5/4P2P/5PP1/6K1 b - - 1 33,0.0,
+4178,67,"Carlsen, Magnus",1,4q3/4P1kp/1p4p1/3Q1p2/2p5/4P2P/5PP1/6K1 w - - 2 34,0.0,3.086
+4178,68,Bharath Subramaniyam H,0,4q3/4P1kp/1p4p1/5p2/2pQ4/4P2P/5PP1/6K1 b - - 3 34,7.0,
+4178,69,"Carlsen, Magnus",1,4q3/4P2p/1p4pk/5p2/2pQ4/4P2P/5PP1/6K1 w - - 4 35,5.0,4.38
+4178,70,Bharath Subramaniyam H,0,4q3/4P2p/1p3Qpk/5p2/2p5/4P2P/5PP1/6K1 b - - 5 35,6.0,
+4178,71,"Carlsen, Magnus",1,4q3/4P2p/1p3Qp1/5p1k/2p5/4P2P/5PP1/6K1 w - - 6 36,3.0,4.854
+4178,72,Bharath Subramaniyam H,0,4qQ2/4P2p/1p4p1/5p1k/2p5/4P2P/5PP1/6K1 b - - 7 36,3.0,
+4178,73,"Carlsen, Magnus",1,5Q2/4P2p/1pq3p1/5p1k/2p5/4P2P/5PP1/6K1 w - - 8 37,2.0,3.734
+4178,74,Bharath Subramaniyam H,0,4QQ2/7p/1pq3p1/5p1k/2p5/4P2P/5PP1/6K1 b - - 0 37,2.0,
+4178,75,"Carlsen, Magnus",1,4QQ2/7p/1pq3p1/5p1k/8/2p1P2P/5PP1/6K1 w - - 0 38,1.0,3.374
+4688,1,"Nakamura, Hikaru",1,rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1,0.0,
+4688,2,"Carlsen, Magnus",0,rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1,0.0,1.459397970755954
+4688,3,"Nakamura, Hikaru",1,rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2,1.0,
+4688,4,"Carlsen, Magnus",0,rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2,1.0,1.0052999999999999
+4688,5,"Nakamura, Hikaru",1,r1bqkbnr/pp1ppppp/2n5/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3,1.0,
+4688,6,"Carlsen, Magnus",0,r1bqkbnr/pp1ppppp/2n5/1Bp5/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3,3.0,1.9915333333333334
+4688,7,"Nakamura, Hikaru",1,r1bqkbnr/pp1ppp1p/2n3p1/1Bp5/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4,2.0,
+4688,8,"Carlsen, Magnus",0,r1bqkbnr/pp1ppp1p/2n3p1/1Bp5/4P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 1 4,0.0,2.728700000000001
+4688,9,"Nakamura, Hikaru",1,r1bqk1nr/pp1pppbp/2n3p1/1Bp5/4P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 2 5,0.0,
+4688,10,"Carlsen, Magnus",0,r1bqk1nr/pp1pppbp/2n3p1/1Bp5/4P3/2P2N2/PP1P1PPP/RNBQ1RK1 b kq - 0 5,2.0,8.1884
+4688,11,"Nakamura, Hikaru",1,r1bqk2r/pp1pppbp/2n2np1/1Bp5/4P3/2P2N2/PP1P1PPP/RNBQ1RK1 w kq - 1 6,1.0,
+4688,12,"Carlsen, Magnus",0,r1bqk2r/pp1pppbp/2n2np1/1Bp5/4P3/2P2N2/PP1P1PPP/RNBQR1K1 b kq - 2 6,1.0,1.865319047619048
+4688,13,"Nakamura, Hikaru",1,r1bq1rk1/pp1pppbp/2n2np1/1Bp5/4P3/2P2N2/PP1P1PPP/RNBQR1K1 w - - 3 7,0.0,
+4688,14,"Carlsen, Magnus",0,r1bq1rk1/pp1pppbp/2n2np1/1Bp5/3PP3/2P2N2/PP3PPP/RNBQR1K1 b - - 0 7,1.0,1.7782857142857142
+4688,15,"Nakamura, Hikaru",1,r1bq1rk1/pp2ppbp/2n2np1/1Bpp4/3PP3/2P2N2/PP3PPP/RNBQR1K1 w - - 0 8,8.0,
+4688,16,"Carlsen, Magnus",0,r1bq1rk1/pp2ppbp/2n2np1/1BpP4/3P4/2P2N2/PP3PPP/RNBQR1K1 b - - 0 8,2.0,4.27
+4688,17,"Nakamura, Hikaru",1,r1b2rk1/pp2ppbp/2n2np1/1Bpq4/3P4/2P2N2/PP3PPP/RNBQR1K1 w - - 0 9,13.0,
+4688,18,"Carlsen, Magnus",0,r1b2rk1/pp2ppbp/2n2np1/1Bpq4/2PP4/5N2/PP3PPP/RNBQR1K1 b - - 0 9,1.0,5.876
+4688,19,"Nakamura, Hikaru",1,r1b2rk1/pp2ppbp/2nq1np1/1Bp5/2PP4/5N2/PP3PPP/RNBQR1K1 w - - 1 10,5.0,
+4688,20,"Carlsen, Magnus",0,r1b2rk1/pp2ppbp/2nq1np1/1BP5/2P5/5N2/PP3PPP/RNBQR1K1 b - - 0 10,1.0,3.972
+4688,21,"Nakamura, Hikaru",1,r1b2rk1/pp2ppbp/2n2np1/1Bq5/2P5/5N2/PP3PPP/RNBQR1K1 w - - 0 11,6.0,
+4688,22,"Carlsen, Magnus",0,r1b2rk1/pp2ppbp/2n2np1/1Bq5/2P5/4BN2/PP3PPP/RN1QR1K1 b - - 1 11,10.0,4.334
+4688,23,"Nakamura, Hikaru",1,r1b2rk1/pp2ppbp/2n2np1/1B5q/2P5/4BN2/PP3PPP/RN1QR1K1 w - - 2 12,1.0,
+4688,24,"Carlsen, Magnus",0,r1b2rk1/pp2ppbp/2n2np1/1B5q/2P5/4BN1P/PP3PP1/RN1QR1K1 b - - 0 12,21.0,3.288
+4688,25,"Nakamura, Hikaru",1,r1br2k1/pp2ppbp/2n2np1/1B5q/2P5/4BN1P/PP3PP1/RN1QR1K1 w - - 1 13,18.0,
+4688,26,"Carlsen, Magnus",0,r1br2k1/pp2ppbp/2n2np1/1B5q/2P5/4BN1P/PP1N1PP1/R2QR1K1 b - - 2 13,11.0,7.308
+4688,27,"Nakamura, Hikaru",1,r1br2k1/pp2ppbp/5np1/1B5q/1nP5/4BN1P/PP1N1PP1/R2QR1K1 w - - 3 14,17.0,
+4688,28,"Carlsen, Magnus",0,r1br2k1/pp2ppbp/5np1/1B5q/1nPB4/5N1P/PP1N1PP1/R2QR1K1 b - - 4 14,2.0,7.254
+4688,29,"Nakamura, Hikaru",1,r2r2k1/pp2ppbp/5np1/1B5q/1nPB4/5N1b/PP1N1PP1/R2QR1K1 w - - 0 15,26.0,
+4688,30,"Carlsen, Magnus",0,r2r2k1/pp2ppbp/5np1/1B5q/1nPB4/5N1P/PP1N1P2/R2QR1K1 b - - 0 15,1.0,6.406
+4688,31,"Nakamura, Hikaru",1,r2r2k1/pp2ppbp/5np1/1B6/1nPB4/5N1q/PP1N1P2/R2QR1K1 w - - 0 16,68.0,
+4688,32,"Carlsen, Magnus",0,r2r2k1/pp2ppbp/5np1/1B2B3/1nP5/5N1q/PP1N1P2/R2QR1K1 b - - 1 16,10.0,10.784
+4688,33,"Nakamura, Hikaru",1,r2r2k1/pp2ppbp/5np1/1B2B3/2P5/3n1N1q/PP1N1P2/R2QR1K1 w - - 2 17,3.0,
+4688,34,"Carlsen, Magnus",0,r2r2k1/pp2ppbp/5np1/1B6/2P5/3n1NBq/PP1N1P2/R2QR1K1 b - - 3 17,13.0,9.894
+4688,35,"Nakamura, Hikaru",1,r2r2k1/pp2ppbp/6p1/1B5n/2P5/3n1NBq/PP1N1P2/R2QR1K1 w - - 4 18,16.0,
+4688,36,"Carlsen, Magnus",0,r2r2k1/pp2ppbp/6p1/1B4Nn/2P5/3n2Bq/PP1N1P2/R2QR1K1 b - - 5 18,1.0,9.298
+4688,37,"Nakamura, Hikaru",1,r2r2k1/pp2ppbp/6p1/1B3qNn/2P5/3n2B1/PP1N1P2/R2QR1K1 w - - 6 19,0.0,
+4688,38,"Carlsen, Magnus",0,r2r2k1/pp2ppbp/6p1/1B3q1n/2P1N3/3n2B1/PP1N1P2/R2QR1K1 b - - 7 19,13.0,8.134
+4688,39,"Nakamura, Hikaru",1,r2r2k1/pp2ppbp/6p1/1B3q2/2P1N3/3n2n1/PP1N1P2/R2QR1K1 w - - 0 20,1.0,
+4688,40,"Carlsen, Magnus",0,r2r2k1/pp2ppbp/6p1/1B3q2/2P1N3/3n2P1/PP1N4/R2QR1K1 b - - 0 20,26.0,7.462
+4688,41,"Nakamura, Hikaru",1,r2r2k1/1p2ppbp/p5p1/1B3q2/2P1N3/3n2P1/PP1N4/R2QR1K1 w - - 0 21,0.0,
+4688,42,"Carlsen, Magnus",0,r2r2k1/1p2ppbp/p5p1/5q2/B1P1N3/3n2P1/PP1N4/R2QR1K1 b - - 1 21,13.0,6.864
+4688,43,"Nakamura, Hikaru",1,r2r2k1/1p2ppbp/p5p1/5q2/B1P1N3/6P1/Pn1N4/R2QR1K1 w - - 0 22,2.0,
+4688,44,"Carlsen, Magnus",0,r2r2k1/1p2ppbp/p5p1/5q2/B1P1N3/1Q4P1/Pn1N4/R3R1K1 b - - 1 22,0.0,5.164
+4688,45,"Nakamura, Hikaru",1,r2r2k1/1p2ppbp/p5p1/5q2/n1P1N3/1Q4P1/P2N4/R3R1K1 w - - 0 23,1.0,
+4688,46,"Carlsen, Magnus",0,r2r2k1/1p2ppbp/p5p1/5q2/Q1P1N3/6P1/P2N4/R3R1K1 b - - 0 23,1.0,5.888
+4688,47,"Nakamura, Hikaru",1,r2r2k1/1p2pp1p/p5p1/5q2/Q1P1N3/6P1/P2N4/b3R1K1 w - - 0 24,1.0,
+4688,48,"Carlsen, Magnus",0,r2r2k1/1p2pp1p/p5p1/5q2/Q1P1N3/6P1/P2N4/R5K1 b - - 0 24,0.0,4.328
+4688,49,"Nakamura, Hikaru",1,r2r2k1/1p2pp1p/p5p1/4q3/Q1P1N3/6P1/P2N4/R5K1 w - - 1 25,9.0,
+4688,50,"Carlsen, Magnus",0,r2r2k1/1p2pp1p/p5p1/4q3/Q1P1N3/6P1/P2N4/3R2K1 b - - 2 25,18.0,6.55
+4688,51,"Nakamura, Hikaru",1,r2r2k1/1p2p2p/p5p1/4qp2/Q1P1N3/6P1/P2N4/3R2K1 w - - 0 26,1.0,
+4688,52,"Carlsen, Magnus",0,r2r2k1/1p2p2p/p5p1/4qp2/Q1P5/6P1/P2N1N2/3R2K1 b - - 1 26,1.0,3.138
+4688,53,"Nakamura, Hikaru",1,r2r2k1/1p2p2p/p5p1/5p2/Q1P5/6q1/P2N1N2/3R2K1 w - - 0 27,0.0,
+4688,54,"Carlsen, Magnus",0,r2r2k1/1p2p2p/p5p1/5p2/Q1P5/6q1/P2N1N2/3R1K2 b - - 1 27,0.0,5.722
+4688,55,"Nakamura, Hikaru",1,r2r2k1/1p2p2p/p5p1/5p2/Q1P5/2q5/P2N1N2/3R1K2 w - - 2 28,1.0,
+4688,56,"Carlsen, Magnus",0,r2r2k1/1p2p2p/p5p1/5p2/2P5/1Qq5/P2N1N2/3R1K2 b - - 3 28,2.0,4.128
+4688,57,"Nakamura, Hikaru",1,r2r2k1/1p2p2p/p5p1/5p2/2P5/1q6/P2N1N2/3R1K2 w - - 0 29,0.0,
+4688,58,"Carlsen, Magnus",0,r2r2k1/1p2p2p/p5p1/5p2/2P5/1P6/3N1N2/3R1K2 b - - 0 29,7.0,4.806
+4688,59,"Nakamura, Hikaru",1,r5k1/1p2p2p/p5p1/5p2/2Pr4/1P6/3N1N2/3R1K2 w - - 1 30,5.0,
+4688,60,"Carlsen, Magnus",0,r5k1/1p2p2p/p5p1/5p2/2Pr4/1P6/3NKN2/3R4 b - - 2 30,0.0,5.994
+4688,61,"Nakamura, Hikaru",1,3r2k1/1p2p2p/p5p1/5p2/2Pr4/1P6/3NKN2/3R4 w - - 3 31,0.0,
+4688,62,"Carlsen, Magnus",0,3r2k1/1p2p2p/p5p1/5p2/2Pr4/1P3N2/4KN2/3R4 b - - 4 31,2.0,5.706
+4688,63,"Nakamura, Hikaru",1,3r2k1/1p2p2p/p5p1/5p2/2P5/1P3N2/4KN2/3r4 w - - 0 32,1.0,
+4688,64,"Carlsen, Magnus",0,3r2k1/1p2p2p/p5p1/5p2/2P5/1P3N2/4K3/3N4 b - - 0 32,1.0,5.126
+4688,65,"Nakamura, Hikaru",1,3r2k1/1p5p/p5p1/4pp2/2P5/1P3N2/4K3/3N4 w - - 0 33,1.0,
+4688,66,"Carlsen, Magnus",0,3r2k1/1p5p/p5p1/4pp2/2P5/1PN2N2/4K3/8 b - - 1 33,1.0,5.05
+4688,67,"Nakamura, Hikaru",1,3r2k1/1p5p/p5p1/5p2/2P1p3/1PN2N2/4K3/8 w - - 0 34,1.0,
+4688,68,"Carlsen, Magnus",0,3r2k1/1p5p/p5p1/4Np2/2P1p3/1PN5/4K3/8 b - - 1 34,14.0,3.748
+4688,69,"Nakamura, Hikaru",1,3r4/1p4kp/p5p1/4Np2/2P1p3/1PN5/4K3/8 w - - 2 35,0.0,
+4688,70,"Carlsen, Magnus",0,3r4/1p4kp/p5p1/3NNp2/2P1p3/1P6/4K3/8 b - - 3 35,5.0,3.084
+4688,71,"Nakamura, Hikaru",1,3r4/1p4kp/p7/3NNpp1/2P1p3/1P6/4K3/8 w - - 0 36,4.0,
+4688,72,"Carlsen, Magnus",0,3r4/1p4kp/p7/3NNpp1/2P1p3/1P2K3/8/8 b - - 1 36,1.0,3.69
