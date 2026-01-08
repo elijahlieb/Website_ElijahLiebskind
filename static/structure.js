@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // === D3 VISUALIZATION ===
 document.addEventListener("DOMContentLoaded", function () {
-  const chartDiv = d3.select("#timeSpend");
+  const chartDiv = d3.select("#timeSpendChart");
   if (chartDiv.empty()) return; // Do nothing if the chart section doesn't exist
 
   const width = chartDiv.node().clientWidth;
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .attr("width", width)
     .attr("height", height);
 
-  d3.csv("static/data/data_magnus_moves_website.csv").then((data) => {
+  d3.csv("/static/data/data_magnus_moves_website.csv").then((data) => {
     console.log("✅ CSV loaded:", data.slice(0, 5)); // Debug: check first rows of the dataset
 
     // Convert string values to numbers
