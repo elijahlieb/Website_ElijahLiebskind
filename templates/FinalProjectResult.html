@@ -1,136 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Predict the time spend for a move in chess</title>
-  <link rel="shortcut icon" href="{{ url_for('static', filename='./media/logo-chess-project.png') }}">
+  <title>Predict the time spent for a move in chess</title>
+
+  <link rel="shortcut icon" href="{{ url_for('static', filename='media/logo-chess-project.png') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='Style.css') }}">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 
-
-  <!-- D3.js -->
+  <!-- D3 -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
-  <script src="{{ url_for('static', filename='structure.js') }}" defer></script>
 
-    <link rel="stylesheet"
+  <!-- Chessboard -->
+  <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/chessboard-1.0.0.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/chessboard-1.0.0.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/chessboard-1.0.0.min.js"></script>
-
+  <!-- Main JS -->
+  <script src="{{ url_for('static', filename='structure.js') }}" defer></script>
 </head>
 
 <body data-csv="{{ url_for('static', filename='data/data_sample_pred_rf.csv') }}">
 
-    
-
-  
-<section class="intro-section">
-<div class="intro-content animate__animated animate__fadeIn">
-<img src="{{ url_for('static', filename='media/motif_site_Project.png') }}" alt="Decorative motif" class="intro-motif animate__animated animate__zoomIn">
-<h1 class="intro-title">Result</h1>
-</div>
+<!-- ================= INTRO ================= -->
+<section class="intro-section" id="introSection">
+  <div class="intro-content animate__animated animate__fadeIn">
+    <img src="{{ url_for('static', filename='media/motif_site_Project.png') }}"
+         alt="Decorative motif"
+         class="intro-motif animate__animated animate__zoomIn">
+    <h1 class="intro-title">Results</h1>
+  </div>
 </section>
 
-
+<!-- ================= NAV ================= -->
 <nav id="projectNav" class="project-nav">
-    <a href="{{ url_for('project_home') }}">Home</a>
-    <a href="{{ url_for('project_data') }}">Data</a>
-    <a href="{{ url_for('project_results') }}">Result</a>
-
+  <a href="{{ url_for('project_home') }}">Home</a>
+  <a href="{{ url_for('project_data') }}">Data</a>
+  <a href="{{ url_for('project_results') }}">Result</a>
 </nav>
 
-<section class="card">
-<h3>Model Performance</h3>
+<main>
 
-<table>
-<tr>
-  <th>Model</th>
-  <th>R²</th>
-  <th>RMSE (seconds)</th>
-</tr>
-<tr>
-  <td>Linear Regression</td>
-  <td>≈ 0.08</td>
-  <td>≈ 6.0</td>
-</tr>
-<tr>
-  <td><strong>Random Forest</strong></td>
-  <td><strong>≈ 0.50</strong></td>
-  <td><strong>≈ 4.4</strong></td>
-</tr>
-<tr>
-  <td>Neural Network</td>
-  <td>≈ 0.11</td>
-  <td>≈ 5.9</td>
-</tr>
-</table>
+<!-- ================= MODEL PERFORMANCE ================= -->
+<section class="card">
+  <h3>Model Performance</h3>
+  <table>
+    <tr>
+      <th>Model</th>
+      <th>R²</th>
+      <th>RMSE (seconds)</th>
+    </tr>
+    <tr>
+      <td>Linear Regression</td>
+      <td>≈ 0.08</td>
+      <td>≈ 6.0</td>
+    </tr>
+    <tr>
+      <td><strong>Random Forest</strong></td>
+      <td><strong>≈ 0.50</strong></td>
+      <td><strong>≈ 4.4</strong></td>
+    </tr>
+    <tr>
+      <td>Neural Network</td>
+      <td>≈ 0.11</td>
+      <td>≈ 5.9</td>
+    </tr>
+  </table>
 </section>
 
-
+<!-- ================= CHESS VISUALIZATION ================= -->
 <section class="card">
-  <h3>Show result</h3>
+  <h3>Move-by-move visualization</h3>
 
   <div id="chess-visualization">
 
-    <div class="player black-player" id="blackPlayer">
-      Black: —
+    <div class="player black-player" id="blackPlayer">Black: —</div>
+
+    <div class="metrics vertical">
+      <div class="metric">
+        <strong>Time spent</strong>
+        <div id="timeSpent">—</div>
+      </div>
+
+      <div class="metric">
+        <strong>Predicted time</strong>
+        <div id="timePred">—</div>
+      </div>
     </div>
 
-<div class="metrics">
-  <div class="metric left">
-    <strong>Time spent by player</strong>
-    <div id="timeSpent">—</div>
-  </div>
+    <img id="boardImage" src="" alt="Chess board">
 
-  <img id="boardImage" src="" alt="Chess board">
-
-  <div class="metric right">
-    <strong>Time predicted by the model</strong>
-    <div id="timePred">—</div>
-  </div>
-</div>
-
-
-
-    <div class="player white-player" id="whitePlayer">
-      White: —
-    </div>
+    <div class="player white-player" id="whitePlayer">White: —</div>
 
   </div>
 </section>
 
-
+<!-- ================= INTERPRETATION ================= -->
 <section class="card">
-<h2>Interpretation</h2>
-<p>So we have an r-squared of 0.378616. Our model predicts Magnus's time with a margin of error of 19.45821 seconds (RMSE). Our model suffers of bias, but it's a good start for a research project that hasn't been explored yet. For future research, we could consider adding more variables to train our model.</p>
+  <h2>Interpretation</h2>
+  <p>
+    The Random Forest model achieves an R² close to 0.50, which is meaningful
+    given the noise inherent to human behavior and time pressure in chess.
+  </p>
 </section>
-
-<!--Final image for each site-->
-<section class="final-section">
-<div class="intro-content animate__animated animate__fadeIn">
-<img src="{{ url_for('static', filename='media/final-motif.png') }}" alt="Decorative motif" class="intro-motif animate__animated animate__zoomIn">
-
-
-<section class="card">
-<h3>Scientific Interpretation</h3>
-<p>
-The strong gap between linear and non-linear models suggests that
-human thinking time emerges from complex interactions between
-time pressure, position complexity, and game dynamics.
-</p>
-
-<p>
-An R² close to 0.50 is a meaningful result given the noise inherent
-to human behavior and the rounding of clock data to the nearest second.
-</p>
-</section>
-
 
 </main>
 
+<!-- ================= FINAL IMAGE ================= -->
+<section class="final-section">
+  <div class="intro-content animate__animated animate__fadeIn">
+    <img id="finalImage"
+         src="{{ url_for('static', filename='media/final-motif.png') }}"
+         alt="Decorative motif"
+         class="intro-motif animate__animated animate__zoomIn">
+  </div>
+</section>
 
-<footer class="site-footer">© 2025 Project Result Page</footer>
+<footer class="site-footer">
+  © 2025 Project Result Page
+</footer>
+
 </body>
 </html>
