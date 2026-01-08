@@ -41,19 +41,33 @@
 
 </nav>
 
-
-<main class="page-main">
 <section class="card">
-<h2>Results</h2>
-<p>Performances of my model</p>
-<ul>
-    <li>MSE = 378.621935</li>
-    <li>RMSE = 19.45821</li>
-    <li>MAE = 6.627784</li>
-    <li>r2 = 0.378616</li>
+<h2>Model Performance</h2>
 
-</ul>
+<table>
+<tr>
+  <th>Model</th>
+  <th>R²</th>
+  <th>RMSE (seconds)</th>
+</tr>
+<tr>
+  <td>Linear Regression</td>
+  <td>≈ 0.08</td>
+  <td>≈ 6.0</td>
+</tr>
+<tr>
+  <td><strong>Random Forest</strong></td>
+  <td><strong>≈ 0.50</strong></td>
+  <td><strong>≈ 4.4</strong></td>
+</tr>
+<tr>
+  <td>Neural Network</td>
+  <td>≈ 0.11</td>
+  <td>≈ 5.9</td>
+</tr>
+</table>
 </section>
+
 
 <section class="card">
   <h2>Show result</h2>
@@ -97,6 +111,22 @@
 <section class="final-section">
 <div class="intro-content animate__animated animate__fadeIn">
 <img src="{{ url_for('static', filename='media/final-motif.png') }}" alt="Decorative motif" class="intro-motif animate__animated animate__zoomIn">
+
+
+<section class="card">
+<h2>Scientific Interpretation</h2>
+<p>
+The strong gap between linear and non-linear models suggests that
+human thinking time emerges from complex interactions between
+time pressure, position complexity, and game dynamics.
+</p>
+
+<p>
+An R² close to 0.50 is a meaningful result given the noise inherent
+to human behavior and the rounding of clock data to the nearest second.
+</p>
+</section>
+
 
 </main>
 

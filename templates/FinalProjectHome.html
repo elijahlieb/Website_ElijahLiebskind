@@ -40,37 +40,90 @@
 
 <main class="page-main project-home">
 
-
 <section class="card" id="objective">
-<h2>Objective</h2>
-<p>The goal of this project is to build a machine learning model capable of predicting Magnus Carlsen's thinking time for a given move.</p>
+<h2>Research Objective</h2>
+<p>
+This project investigates whether <strong>human thinking time in chess can be predicted</strong>
+from observable features of the game state.
+Focusing on blitz games played by <strong>Magnus Carlsen</strong>, we aim to model the time spent on each move
+as a function of temporal, positional, and game-dynamic variables.
+</p>
 </section>
-
 
 <section class="card" id="context">
-<h2>Context</h2>
-<p>Since the early 2000s, computers have been outperforming the best chess players. However, reproducing human time management is an interesting challenge for data science.</p>
+<h2>Scientific Context</h2>
+<p>
+Modern chess engines vastly outperform humans in move quality, yet fail to reproduce
+an essential aspect of human cognition: <strong>time management</strong>.
+Human players hesitate, rush, and adapt their thinking time to context.
+This temporal dimension is largely absent from current AI systems.
+</p>
+<p>
+By modeling thinking time, this project contributes to the broader goal of
+<strong>human-aligned chess AI</strong>, complementing existing imitation-based approaches such as Maia.
+</p>
 </section>
 
+<section class="card" id="dataset">
+<h2>Dataset</h2>
+<p>
+The dataset is built from <strong>250 blitz games</strong> played by Magnus Carlsen on chess.com.
+Each move is extracted from PGN files and enriched using <code>python-chess</code>.
+</p>
+<ul>
+  <li>One row per move played by Magnus Carlsen</li>
+  <li>Temporal features (clock, increment, previous move time)</li>
+  <li>Positional and game-dynamic features</li>
+</ul>
+<p>
+Large files and processed datasets are archived on <strong>Zenodo</strong>.
+</p>
+</section>
 
 <section class="card" id="methodology">
 <h2>Methodology</h2>
 <ol>
-<li>Data preprocessing and variable creation</li>
-<li>Exploratory analysis</li>
-<li>Training the model</li>
-<li>Evaluating its performance</li>
+<li>PGN parsing and feature extraction</li>
+<li>Dataset construction and variable selection</li>
+<li>Training linear and non-linear regression models</li>
+<li>Performance evaluation using R², MSE and RMSE</li>
 </ol>
 <figure>
 <img src="{{ url_for('static', filename='media/boardchess.jpeg') }}" alt="chess board" class="inline-image">
 </figure>
 </section>
 
-<!--Final image for each site-->
-<section class="final-section">
-<div class="intro-content animate__animated animate__fadeIn">
-<img src="{{ url_for('static', filename='media/final-motif.png') }}" alt="Decorative motif" class="intro-motif animate__animated animate__zoomIn">
+<section class="card" id="key-results">
+<h2>Key Findings</h2>
+<p>
+Linear models perform poorly (R² ≈ 0.08), indicating strong non-linearity.
+</p>
+<p>
+A <strong>Random Forest regressor</strong> explains up to <strong>50% of the variance</strong> in thinking time,
+showing that human reflection time is not purely stochastic.
+</p>
+</section>
 
+<section class="card" id="resources">
+<h2>Project Resources</h2>
+<ul>
+  <li>
+    🔗 <a href="https://github.com/elijahlieb/magnus-time-prediction-ml" target="_blank">
+    GitHub – Source code & pipeline
+    </a>
+  </li>
+  <li>
+    📦 <a href="https://doi.org/10.5281/zenodo.18175686" target="_blank">
+    Zenodo – Datasets & archival
+    </a>
+  </li>
+  <li>
+    📄 <a href="https://zenodo.org/records/18176553" target="_blank">
+    Full scientific report (PDF)
+    </a>
+  </li>
+</ul>
+</section>
 
 </main>
 
