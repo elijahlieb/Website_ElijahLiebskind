@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // === D3 VISUALIZATION ===
 document.addEventListener("DOMContentLoaded", function () {
   const chartDiv = d3.select("#timeSpendChart");
-  if (chartDiv.empty()) return; // Do nothing if the chart section doesn't exist
+  if (chartDiv.empty()) return;
 
   const width = chartDiv.node().clientWidth;
   const height = 400;
@@ -87,9 +87,8 @@ document.addEventListener("DOMContentLoaded", function () {
     .attr("height", height);
 
   d3.csv("/static/data/data_magnus_moves_website.csv").then((data) => {
-    console.log("✅ CSV loaded:", data.slice(0, 5)); // Debug: check first rows of the dataset
+    console.log("✅ CSV loaded:", data.slice(0, 5));
 
-    // Convert string values to numbers
     data.forEach((d) => {
       d.TimeSpend = +d.TimeSpend;
     });
@@ -111,57 +110,28 @@ document.addEventListener("DOMContentLoaded", function () {
       .nice()
       .range([height - margin.bottom, margin.top]);
 
-    const bar = svg
+    svg
       .append("g")
-      .selectAll(".bar")
+      .selectAll("rect")
       .data(bins)
       .join("rect")
-      .attr("class", "bar")
       .attr("x", (d) => x(d.x0) + 1)
       .attr("y", (d) => y(d.length))
       .attr("height", (d) => y(0) - y(d.length))
-      .attr("width", (d) => Math.max(0, x(d.x1) - x(d.x0) - 1));
+      .attr("width", (d) => Math.max(0, x(d.x1) - x(d.x0) - 1))
+      .attr("fill", "#4A6FA5");
 
     svg
       .append("g")
       .attr("transform", `translate(0,${height - margin.bottom})`)
-      .attr("class", "axis")
       .call(d3.axisBottom(x));
 
     svg
       .append("g")
       .attr("transform", `translate(${margin.left},0)`)
-      .attr("class", "axis")
       .call(d3.axisLeft(y));
-
-    // X-axis label
-    svg
-      .append("text")
-      .attr("x", width / 2)
-      .attr("y", height - 5)
-      .attr("text-anchor", "middle")
-      .attr("fill", "#333")
-      .style("font-size", "0.9rem")
-      .text("Time Spent");
-
-    // Y-axis label
-    svg
-      .append("text")
-      .attr("x", -height / 2)
-      .attr("y", 15)
-      .attr("transform", "rotate(-90)")
-      .attr("text-anchor", "middle")
-      .attr("fill", "#333")
-      .style("font-size", "0.9rem")
-      .text("Frequency");
   });
 });
-
-
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("DOM READY");
-});
-
 
 
 
