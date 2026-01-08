@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .attr("width", width)
     .attr("height", height);
 
-  d3.csv("media/df_MagnusMoves.csv").then((data) => {
+  d3.csv("static/data/data_magnus_moves_website.csv").then((data) => {
     console.log("✅ CSV loaded:", data.slice(0, 5)); // Debug: check first rows of the dataset
 
     // Convert string values to numbers
