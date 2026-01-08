@@ -72,6 +72,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+
+
+
 // === D3 VISUALIZATION ===
 document.addEventListener("DOMContentLoaded", function () {
   const chartDiv = d3.select("#timeSpendChart");
@@ -135,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-/* ================= CHESS + D3 Animation ================= */
+/* ================= CHESS + D3 : Animation to show results ================= */
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -180,28 +183,33 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-function step() {
-  if (index >= data.length) return;
+    function step() {
+      if (index >= data.length) return;
 
-  const move = data[index];
+      const move = data[index];
 
-  boardImage.src =
-    `/static/boards/game_${move.ID_game}_move_${move.ID_move}.svg`;
+      // ✅ IMAGE (UTILISE ID_move)
+      boardImage.src =
+        `/static/boards/game_${move.ID_game}_move_${move.ID_move}.svg`;
 
-  timeSpentDiv.textContent = `${move.TimeSpend.toFixed(2)} s`;
+      // ✅ TEXTE
+      // Time spent (toujours affiché)
+      timeSpentDiv.textContent = `${move.TimeSpend.toFixed(2)} s`;
 
-  if (move.PlayerSide === 1 && !isNaN(move.TimeSpendPred)) {
-    timePredDiv.textContent = `${move.TimeSpendPred.toFixed(2)} s`;
-  } else {
-    timePredDiv.textContent = "—";
-  }
-
-  updatePlayers(move.ID_game);
-
-  index++;
-  setTimeout(step, 4000);
+      // Prediction uniquement pour Magnus (PlayerSide === 1)
+      if (move.PlayerSide === 1 && !isNaN(move.TimeSpendPred)) {
+        timePredDiv.textContent = `${move.TimeSpendPred.toFixed(2)} s`;
+      } else {
+        timePredDiv.textContent = "No prediction";
 }
 
+
+      // ✅ JOUEURS
+      updatePlayers(move.ID_game);
+
+      index++;
+      setTimeout(step, 4000);
+    }
 
     step();
   });
