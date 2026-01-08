@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // === D3 VISUALIZATION ===
 document.addEventListener("DOMContentLoaded", function () {
-  const chartDiv = d3.select("#timeSpendChart");
+  const chartDiv = d3.select("#timeSpend");
   if (chartDiv.empty()) return; // Do nothing if the chart section doesn't exist
 
   const width = chartDiv.node().clientWidth;
