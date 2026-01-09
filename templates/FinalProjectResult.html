@@ -1,3 +1,6 @@
+
+<!-- Results -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +11,8 @@
   <link rel="shortcut icon" href="{{ url_for('static', filename='media/logo-chess-project.png') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='Style.css') }}">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
   <!-- D3 -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -21,12 +26,12 @@
   <script src="{{ url_for('static', filename='structure.js') }}" defer></script>
 </head>
 
-<body data-csv="{{ url_for('static', filename='data/data_sample_pred_rf.csv') }}">
+<body class="project-page" data-csv="{{ url_for('static', filename='data/data_sample_pred_rf.csv') }}">
 
 <!-- ================= INTRO ================= -->
-<section class="intro-section" id="introSection">
+<section class="intro-section">
   <div class="intro-content animate__animated animate__fadeIn">
-    <img src="{{ url_for('static', filename='media/motif_site_Project.png') }}"
+    <img src="{{ url_for('static', filename='media/chess-logo-start.png') }}"
          alt="Decorative motif"
          class="intro-motif animate__animated animate__zoomIn">
     <h1 class="intro-title">Results</h1>
@@ -73,11 +78,14 @@
 <section class="card">
   <h3>Move-by-move visualization</h3>
 
-  <div id="chess-visualization">
+<div id="chess-visualization">
 
-    <div class="player black-player" id="blackPlayer">Black: —</div>
+  <div class="player black-player" id="blackPlayer">Black: —</div>
 
-    <div class="metrics vertical">
+  <div class="chess-layout">
+
+    <!-- LEFT : METRICS -->
+    <div class="metrics metrics-left">
       <div class="metric">
         <strong>Time spent</strong>
         <div id="timeSpent">—</div>
@@ -89,11 +97,15 @@
       </div>
     </div>
 
+    <!-- CENTER : BOARD -->
     <img id="boardImage" src="" alt="Chess board">
 
-    <div class="player white-player" id="whitePlayer">White: —</div>
-
   </div>
+
+  <div class="player white-player" id="whitePlayer">White: —</div>
+
+</div>
+
 </section>
 
 <!-- ================= INTERPRETATION ================= -->
@@ -107,15 +119,7 @@
 
 </main>
 
-<!-- ================= FINAL IMAGE ================= -->
-<section class="final-section">
-  <div class="intro-content animate__animated animate__fadeIn">
-    <img id="finalImage"
-         src="{{ url_for('static', filename='media/final-motif.png') }}"
-         alt="Decorative motif"
-         class="intro-motif animate__animated animate__zoomIn">
-  </div>
-</section>
+
 
 <footer class="site-footer">
   © 2025 Project Result Page

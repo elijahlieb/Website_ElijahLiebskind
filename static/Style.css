@@ -1,21 +1,49 @@
 /* === VARIABLES === */
 :root {
-  --bg-beige: #f0e7d9;
-  --card-bg: rgba(255, 255, 255, 0.6);
-  --text: #2f2f2f;
-  --accent: #314e68;
-  --accent-light: rgba(49, 78, 104, 0.12);
+  --bg-main: #0f172a;
+  --bg-section: #1e293b;
+
+  --card-bg: rgba(255, 255, 255, 0.08);
+
+  --text-main: #f8fafc;
+  --text-secondary: #cbd5e1;
+
+  --accent: #1e3a8a;
+  --accent-gold: #c9a24d;
+
+  --accent-light: rgba(201, 162, 77, 0.25);
 }
 
 /* === RESET === */
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html, body {
-  font-family: 'Gill Sans', 'Helvetica', Arial, sans-serif;
-  background: var(--bg-beige);
-  color: var(--text);
-  scroll-behavior: smooth;
-  line-height: 1.6;
+
+.project-page {
+  background: linear-gradient(180deg, #0f172a 0%, #020617 100%);
+  color: var(--text-main);
 }
+
+
+/* === INTRO IMAGE FOR PROJECT PART === */
+.intro-section-project {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(
+    circle at center,
+    #1e293b 0%,
+    #020617 70%
+  );
+  overflow: hidden;
+}
+
+
+
+@keyframes fadeInIntro {
+  from { opacity: 0; transform: scale(0.97); }
+  to { opacity: 1; transform: scale(1); }
+}
+
 
 /* === INTRO IMAGE === */
 .intro-section {
@@ -53,6 +81,65 @@ html, body {
 /* Cards (content sections) */
 .card {
   background: var(--card-bg);
+  border-radius: 20px;
+  padding: 44px 36px;
+  margin: 64px 0;
+
+  box-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.45),
+    inset 0 0 0 1px rgba(255,255,255,0.06);
+
+  backdrop-filter: blur(10px);
+
+  opacity: 0;
+  transform: translateY(40px);
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease,
+    box-shadow 0.4s ease;
+}
+
+
+/* === AD FOR PROJECTS PRESENTATION PARTS === */
+.project-page .intro-section {
+  background: radial-gradient(
+    circle at center,
+    #1e293b 0%,
+    #020617 70%
+  );
+}
+
+.project-page .card {
+  background: var(--card-bg);
+}
+
+.project-page .site-footer {
+  background: rgba(15, 23, 42, 0.85);
+  color: var(--text-secondary);
+}
+
+
+.project-page .intro-motif {
+  max-width: 520px;
+  opacity: 1;
+
+  filter:
+    drop-shadow(0 10px 25px rgba(0,0,0,0.9))
+    drop-shadow(0 0 18px rgba(201,162,77,0.35));
+}
+
+
+/* === MAIN CONTENT FOR PERSONAL PAGE=== */
+.page-main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 120px 20px 80px 20px;
+  text-align: center;
+}
+
+/* Cards (content sections) */
+.card {
+  background: var(--card-bg);
   border-radius: 18px;
   padding: 40px 30px;
   margin: 48px 0;
@@ -66,6 +153,7 @@ html, body {
   transition: opacity 0.8s ease, transform 0.8s ease, box-shadow 0.4s ease;
 }
 
+
 /* Animation effect when card appears in the viewport */
 .card.visible {
   opacity: 1;
@@ -75,21 +163,23 @@ html, body {
 /* Subtle hover effect for more liveliness */
 .card:hover {
   box-shadow:
-    0 8px 20px rgba(0, 0, 0, 0.1),
-    0 12px 28px rgba(0, 0, 0, 0.08);
-  transform: translateY(-4px);
+    0 18px 60px rgba(0,0,0,0.6),
+    0 0 0 1px var(--accent-light);
+  transform: translateY(-6px);
 }
+
 
 /* Titles and text */
 .card h2 {
-  margin-bottom: 16px;
-  font-size: 1.6rem;
-  color: var(--accent);
+  margin-bottom: 18px;
+  font-size: 1.7rem;
+  color: var(--accent-gold);
+  letter-spacing: 0.4px;
 }
 
-.card p,
-.card li {
-  margin: 10px 0;
+
+.card p {
+  color: var(--text-secondary);
 }
 
 ul {
@@ -141,7 +231,7 @@ ul {
   color: var(--accent);
   float: right;
 }
-
+html
 /* Text inside the right panel */
 .right-panel h3 {
   margin-top: 20px;
@@ -168,55 +258,64 @@ img { transition: opacity .35s linear; }
 .to-click:hover img { opacity: 0.6; }
 
 /* === PROJECT NAVIGATION === */
-.project-nav {
+.project-page .project-nav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+
   display: flex;
   justify-content: center;
   gap: 24px;
   padding: 16px 0;
-  background: rgba(255, 255, 255, 0.75);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(12px);
+
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+
   opacity: 0;
   transition: opacity 0.45s ease;
   z-index: 45;
 }
-.project-nav.visible {
+
+.project-page .project-nav.visible {
   opacity: 1;
 }
-.project-nav a {
+
+.project-page .project-nav a {
   text-decoration: none;
-  color: var(--accent);
+  color: var(--text-secondary);
   font-weight: 600;
   font-size: 1rem;
   padding: 8px 18px;
   border-radius: 8px;
   transition: background 0.3s ease, color 0.3s ease;
 }
-.project-nav a:hover {
+
+.project-page .project-nav a:hover {
   background: var(--accent);
   color: white;
 }
 
+
 /* === FINAL IMAGE === */
 .final-section {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--bg-beige);
-  overflow: hidden;
+  background: radial-gradient(
+    circle at center,
+    #020617 0%,
+    #000000 80%
+  );
 }
+
 .final-motif {
   max-width: 95vw;
   max-height: 85vh;
   object-fit: contain;
   opacity: 0.97;
 }
+
 
 /* === FOOTER === */
 .site-footer {
@@ -336,6 +435,9 @@ img { transition: opacity .35s linear; }
   width: 320px;
 }
 
+
+
+
 /* === CHESS BOARD IMAGE === */
 #boardImage {
   width: 320px;        /* taille raisonnable */
@@ -354,9 +456,114 @@ img { transition: opacity .35s linear; }
 }
 
 .white-player {
-  color: #2f4f4f;
+  color: #f4ffff;
 }
 
 .black-player {
-  color: #1c1c1c;
+  color: #959595;
+}
+
+/* === CHESS RESULT LAYOUT === */
+
+#chess-visualization {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.chess-layout {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Metrics column (LEFT) */
+.metrics-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: stretch;
+}
+
+/* Metric cards */
+.metric {
+  background: var(--card-bg);
+  padding: 14px 18px;
+  border-radius: 10px;
+  min-width: 160px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Chess board */
+#boardImage {
+  width: 320px;
+  max-width: 90vw;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .chess-layout {
+    flex-direction: column;
+  }
+
+  .metrics-left {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+
+
+/* === FINAL IMAGE === */
+.final-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-beige);
+  overflow: hidden;
+}
+.final-motif {
+  max-width: 95vw;
+  max-height: 85vh;
+  object-fit: contain;
+  opacity: 0.97;
+}
+
+
+
+/* ================= INDEX – LISIBILITÉ TEXTE ================= */
+
+/* Texte général plus contrasté */
+body:not(.project-page) {
+  color: #1f2933; /* gris foncé lisible */
+}
+
+/* Paragraphes et listes */
+body:not(.project-page) .card p,
+body:not(.project-page) .card li {
+  color: #2a2a2a;
+  font-size: 1rem;
+}
+
+/* Titres plus affirmés */
+body:not(.project-page) .card h2 {
+  color: #243b53;
+  font-weight: 700;
+}
+
+/* Soulignements légers pour structure visuelle */
+body:not(.project-page) .card h2::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: var(--accent);
+  margin: 10px auto 0;
+  border-radius: 2px;
 }

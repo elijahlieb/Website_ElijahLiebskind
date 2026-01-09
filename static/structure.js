@@ -1,12 +1,18 @@
-console.log("structure.js loaded");
 
+// structure.js
+
+console.log("structure.js loaded");
 document.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.getElementById("hamburgerBtn");
   const rightPanel = document.getElementById("rightPanel");
   const closeBtn = document.getElementById("closePanel");
   const sections = document.querySelectorAll(".fade-section, .card");
   const finalImage = document.getElementById("finalImage");
-  const introSection = document.getElementById("introSection");
+  
+  const introSection =
+  document.getElementById("introSection") ||
+  document.querySelector(".intro-section");
+
   const projectNav = document.getElementById("projectNav");
 
   // --- Open / close the right-side panel ---
@@ -190,7 +196,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // ✅ IMAGE (UTILISE ID_move)
       boardImage.src =
-        `/static/boards/game_${move.ID_game}_move_${move.ID_move}.svg`;
+        `/static/boards/game_${move.ID_game}_move_${move.ID_move + 1}.svg`;
 
       // ✅ TEXTE
       // Time spent (toujours affiché)
